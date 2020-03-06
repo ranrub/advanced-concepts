@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rebeccapeltz/advanced-concepts.git"
+    "url": "git+https://github.com/cloudinary-training/advanced-concepts.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rebeccapeltz/advanced-concepts/issues"
+    "url": "https://github.com/cloudinary-training/advanced-concepts/issues"
   },
-  "homepage": "https://github.com/rebeccapeltz/advanced-concepts#readme",
+  "homepage": "https://github.com/cloudinary-training/advanced-concepts#readme",
   "dependencies": {
     "cloudinary": "^1.19.0",
     "crypto": "^1.0.1",

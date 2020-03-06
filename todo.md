@@ -1,1 +1,1 @@
-license?
+change picturecloud7 to a training account
