@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  h1= title
+ 
+  h2 Welcome to #{title}
+  p Timestamp: #{timestamp}
+  p Signature: #{signature}
+  div
+  div#upload_widget_opener
+
+  script(type="text/javascript").
+    document.addEventListener(
+        "DOMContentLoaded",
+        e => {
+          $("#upload_widget_opener").cloudinary_upload_widget(
+            {
+              cloudName: "#{cloudname}",
+              apiKey: "#{apikey}",
+              cropping: false,
+              uploadSignature: "#{signature}",
+              uploadSignatureTimestamp: "#{timestamp}",
+              sources: [
+                    "local",
+                    "url",
+                    "camera"
+              ],
+            },
+            (error, result) => {
+              if (error){
+                console.log("error", error);
+              } else {
+                console.log(result);
+              }
+            }
+          );
+        }
+      );
+    

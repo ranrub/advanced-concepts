@@ -1,0 +1,832 @@
+{
+  "info_kind": "google_video_tagging",
+  "info_status": "complete",
+  "public_id": "google-translation-video",
+  "uploaded_at": "2020-03-02T19:53:42Z",
+  "version": 1583178822,
+  "url": "http://res.cloudinary.com/picturecloud7/video/upload/v1583178822/google-translation-video.mp4",
+  "secure_url": "https://res.cloudinary.com/picturecloud7/video/upload/v1583178822/google-translation-video.mp4",
+  "etag": "2af4940bce1525a00515bf58696f926a",
+  "notification_type": "info",
+  "info_data": [
+    {
+      "tag": "official",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 97.564133,
+      "confidence": 0.4433242976665497,
+      "shot_level": false
+    },
+    {
+      "tag": "spokesperson",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 97.564133,
+      "confidence": 0.5439829230308533,
+      "shot_level": false
+    },
+    {
+      "tag": "presentation",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 97.564133,
+      "confidence": 0.5193058848381042,
+      "shot_level": false
+    },
+    {
+      "tag": "public speaking",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 97.564133,
+      "confidence": 0.42915812134742737,
+      "shot_level": false
+    },
+    {
+      "tag": "newscaster",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 97.564133,
+      "confidence": 0.9535385966300964,
+      "shot_level": false
+    },
+    {
+      "tag": "news",
+      "categories": [],
+      "start_time_offset": 0,
+      "end_time_offset": 97.564133,
+      "confidence": 0.9654664397239685,
+      "shot_level": false
+    },
+    {
+      "tag": "news conference",
+      "categories": [
+        "event"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 97.564133,
+      "confidence": 0.615930438041687,
+      "shot_level": false
+    },
+    {
+      "tag": "politics",
+      "categories": [],
+      "start_time_offset": 0,
+      "end_time_offset": 97.564133,
+      "confidence": 0.7900646924972534,
+      "shot_level": false
+    },
+    {
+      "tag": "speech",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 97.564133,
+      "confidence": 0.3771745562553406,
+      "shot_level": false
+    },
+    {
+      "tag": "news",
+      "categories": [],
+      "start_time_offset": 0,
+      "end_time_offset": 0.667333,
+      "confidence": 0.9654664397239685,
+      "shot_level": true
+    },
+    {
+      "tag": "news",
+      "categories": [],
+      "start_time_offset": 0.7007,
+      "end_time_offset": 5.005,
+      "confidence": 0.9654664397239685,
+      "shot_level": true
+    },
+    {
+      "tag": "news",
+      "categories": [],
+      "start_time_offset": 5.038366,
+      "end_time_offset": 10.076733,
+      "confidence": 0.977648138999939,
+      "shot_level": true
+    },
+    {
+      "tag": "news",
+      "categories": [],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.9654664397239685,
+      "shot_level": true
+    },
+    {
+      "tag": "news",
+      "categories": [],
+      "start_time_offset": 31.464766,
+      "end_time_offset": 43.510133,
+      "confidence": 0.886437714099884,
+      "shot_level": true
+    },
+    {
+      "tag": "news",
+      "categories": [],
+      "start_time_offset": 43.5435,
+      "end_time_offset": 93.7937,
+      "confidence": 0.8672522306442261,
+      "shot_level": true
+    },
+    {
+      "tag": "news",
+      "categories": [],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.9654664397239685,
+      "shot_level": true
+    },
+    {
+      "tag": "news",
+      "categories": [],
+      "start_time_offset": 96.129366,
+      "end_time_offset": 97.564133,
+      "confidence": 0.977648138999939,
+      "shot_level": true
+    },
+    {
+      "tag": "news conference",
+      "categories": [
+        "event"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 0.667333,
+      "confidence": 0.5598289966583252,
+      "shot_level": true
+    },
+    {
+      "tag": "news conference",
+      "categories": [
+        "event"
+      ],
+      "start_time_offset": 0.7007,
+      "end_time_offset": 5.005,
+      "confidence": 0.5253693461418152,
+      "shot_level": true
+    },
+    {
+      "tag": "news conference",
+      "categories": [
+        "event"
+      ],
+      "start_time_offset": 5.038366,
+      "end_time_offset": 10.076733,
+      "confidence": 0.6326874494552612,
+      "shot_level": true
+    },
+    {
+      "tag": "news conference",
+      "categories": [
+        "event"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.7396821975708008,
+      "shot_level": true
+    },
+    {
+      "tag": "news conference",
+      "categories": [
+        "event"
+      ],
+      "start_time_offset": 31.464766,
+      "end_time_offset": 43.510133,
+      "confidence": 0.7396821975708008,
+      "shot_level": true
+    },
+    {
+      "tag": "news conference",
+      "categories": [
+        "event"
+      ],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.7805396318435669,
+      "shot_level": true
+    },
+    {
+      "tag": "news conference",
+      "categories": [
+        "event"
+      ],
+      "start_time_offset": 96.129366,
+      "end_time_offset": 97.564133,
+      "confidence": 0.6326874494552612,
+      "shot_level": true
+    },
+    {
+      "tag": "media",
+      "categories": [],
+      "start_time_offset": 43.5435,
+      "end_time_offset": 93.7937,
+      "confidence": 0.5362465977668762,
+      "shot_level": true
+    },
+    {
+      "tag": "text",
+      "categories": [],
+      "start_time_offset": 43.5435,
+      "end_time_offset": 93.7937,
+      "confidence": 0.42520982027053833,
+      "shot_level": true
+    },
+    {
+      "tag": "speech",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 0.667333,
+      "confidence": 0.3771745562553406,
+      "shot_level": true
+    },
+    {
+      "tag": "speech",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0.7007,
+      "end_time_offset": 5.005,
+      "confidence": 0.3771745562553406,
+      "shot_level": true
+    },
+    {
+      "tag": "speech",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 5.038366,
+      "end_time_offset": 10.076733,
+      "confidence": 0.3771745562553406,
+      "shot_level": true
+    },
+    {
+      "tag": "speech",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.7061423659324646,
+      "shot_level": true
+    },
+    {
+      "tag": "speech",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 31.464766,
+      "end_time_offset": 43.510133,
+      "confidence": 0.3771745562553406,
+      "shot_level": true
+    },
+    {
+      "tag": "speech",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.7074224948883057,
+      "shot_level": true
+    },
+    {
+      "tag": "speech",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 96.129366,
+      "end_time_offset": 97.564133,
+      "confidence": 0.5195284485816956,
+      "shot_level": true
+    },
+    {
+      "tag": "brand",
+      "categories": [],
+      "start_time_offset": 43.5435,
+      "end_time_offset": 93.7937,
+      "confidence": 0.40095803141593933,
+      "shot_level": true
+    },
+    {
+      "tag": "professional",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.5954576730728149,
+      "shot_level": true
+    },
+    {
+      "tag": "professional",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.5424329042434692,
+      "shot_level": true
+    },
+    {
+      "tag": "crowd",
+      "categories": [
+        "people"
+      ],
+      "start_time_offset": 31.464766,
+      "end_time_offset": 43.510133,
+      "confidence": 0.32783016562461853,
+      "shot_level": true
+    },
+    {
+      "tag": "spokesperson",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.7205936312675476,
+      "shot_level": true
+    },
+    {
+      "tag": "spokesperson",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.710580050945282,
+      "shot_level": true
+    },
+    {
+      "tag": "journalist",
+      "categories": [
+        "professional"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 0.667333,
+      "confidence": 0.6925897598266602,
+      "shot_level": true
+    },
+    {
+      "tag": "journalist",
+      "categories": [
+        "professional"
+      ],
+      "start_time_offset": 0.7007,
+      "end_time_offset": 5.005,
+      "confidence": 0.9021154642105103,
+      "shot_level": true
+    },
+    {
+      "tag": "journalist",
+      "categories": [
+        "professional"
+      ],
+      "start_time_offset": 5.038366,
+      "end_time_offset": 10.076733,
+      "confidence": 0.7774887681007385,
+      "shot_level": true
+    },
+    {
+      "tag": "journalist",
+      "categories": [
+        "professional"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.7774887681007385,
+      "shot_level": true
+    },
+    {
+      "tag": "journalist",
+      "categories": [
+        "professional"
+      ],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.7774887681007385,
+      "shot_level": true
+    },
+    {
+      "tag": "journalist",
+      "categories": [
+        "professional"
+      ],
+      "start_time_offset": 96.129366,
+      "end_time_offset": 97.564133,
+      "confidence": 0.7774887681007385,
+      "shot_level": true
+    },
+    {
+      "tag": "audience",
+      "categories": [
+        "people"
+      ],
+      "start_time_offset": 31.464766,
+      "end_time_offset": 43.510133,
+      "confidence": 0.528838038444519,
+      "shot_level": true
+    },
+    {
+      "tag": "debate",
+      "categories": [
+        "event"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 0.667333,
+      "confidence": 0.4378494918346405,
+      "shot_level": true
+    },
+    {
+      "tag": "debate",
+      "categories": [
+        "event"
+      ],
+      "start_time_offset": 5.038366,
+      "end_time_offset": 10.076733,
+      "confidence": 0.4378494918346405,
+      "shot_level": true
+    },
+    {
+      "tag": "debate",
+      "categories": [
+        "event"
+      ],
+      "start_time_offset": 96.129366,
+      "end_time_offset": 97.564133,
+      "confidence": 0.42158329486846924,
+      "shot_level": true
+    },
+    {
+      "tag": "politics",
+      "categories": [],
+      "start_time_offset": 0,
+      "end_time_offset": 0.667333,
+      "confidence": 0.6114821434020996,
+      "shot_level": true
+    },
+    {
+      "tag": "politics",
+      "categories": [],
+      "start_time_offset": 0.7007,
+      "end_time_offset": 5.005,
+      "confidence": 0.5843766331672668,
+      "shot_level": true
+    },
+    {
+      "tag": "politics",
+      "categories": [],
+      "start_time_offset": 5.038366,
+      "end_time_offset": 10.076733,
+      "confidence": 0.6663817167282104,
+      "shot_level": true
+    },
+    {
+      "tag": "politics",
+      "categories": [],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.8068146705627441,
+      "shot_level": true
+    },
+    {
+      "tag": "politics",
+      "categories": [],
+      "start_time_offset": 31.464766,
+      "end_time_offset": 43.510133,
+      "confidence": 0.7900646924972534,
+      "shot_level": true
+    },
+    {
+      "tag": "politics",
+      "categories": [],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.6919779777526855,
+      "shot_level": true
+    },
+    {
+      "tag": "politics",
+      "categories": [],
+      "start_time_offset": 96.129366,
+      "end_time_offset": 97.564133,
+      "confidence": 0.6663817167282104,
+      "shot_level": true
+    },
+    {
+      "tag": "public relations",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.36274802684783936,
+      "shot_level": true
+    },
+    {
+      "tag": "computer program",
+      "categories": [
+        "computer",
+        "software"
+      ],
+      "start_time_offset": 43.5435,
+      "end_time_offset": 93.7937,
+      "confidence": 0.684522271156311,
+      "shot_level": true
+    },
+    {
+      "tag": "sports",
+      "categories": [],
+      "start_time_offset": 31.464766,
+      "end_time_offset": 43.510133,
+      "confidence": 0.3822903037071228,
+      "shot_level": true
+    },
+    {
+      "tag": "new media",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 43.5435,
+      "end_time_offset": 93.7937,
+      "confidence": 0.4208553433418274,
+      "shot_level": true
+    },
+    {
+      "tag": "official",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 0.667333,
+      "confidence": 0.4876462519168854,
+      "shot_level": true
+    },
+    {
+      "tag": "official",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.5911875367164612,
+      "shot_level": true
+    },
+    {
+      "tag": "official",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 31.464766,
+      "end_time_offset": 43.510133,
+      "confidence": 0.4876462519168854,
+      "shot_level": true
+    },
+    {
+      "tag": "official",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.4876462519168854,
+      "shot_level": true
+    },
+    {
+      "tag": "official",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 96.129366,
+      "end_time_offset": 97.564133,
+      "confidence": 0.4876462519168854,
+      "shot_level": true
+    },
+    {
+      "tag": "display device",
+      "categories": [
+        "technology"
+      ],
+      "start_time_offset": 43.5435,
+      "end_time_offset": 93.7937,
+      "confidence": 0.37039464712142944,
+      "shot_level": true
+    },
+    {
+      "tag": "presentation",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 0.667333,
+      "confidence": 0.5193058848381042,
+      "shot_level": true
+    },
+    {
+      "tag": "presentation",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 5.038366,
+      "end_time_offset": 10.076733,
+      "confidence": 0.36930525302886963,
+      "shot_level": true
+    },
+    {
+      "tag": "presentation",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.6041772365570068,
+      "shot_level": true
+    },
+    {
+      "tag": "presentation",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 43.5435,
+      "end_time_offset": 93.7937,
+      "confidence": 0.6041772365570068,
+      "shot_level": true
+    },
+    {
+      "tag": "presentation",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.5722100138664246,
+      "shot_level": true
+    },
+    {
+      "tag": "presentation",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 96.129366,
+      "end_time_offset": 97.564133,
+      "confidence": 0.38184425234794617,
+      "shot_level": true
+    },
+    {
+      "tag": "speaker",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.4072719216346741,
+      "shot_level": true
+    },
+    {
+      "tag": "speaker",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.31809085607528687,
+      "shot_level": true
+    },
+    {
+      "tag": "public speaking",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 0.667333,
+      "confidence": 0.38143858313560486,
+      "shot_level": true
+    },
+    {
+      "tag": "public speaking",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.7401329874992371,
+      "shot_level": true
+    },
+    {
+      "tag": "public speaking",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.727790892124176,
+      "shot_level": true
+    },
+    {
+      "tag": "public speaking",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 96.129366,
+      "end_time_offset": 97.564133,
+      "confidence": 0.3571869134902954,
+      "shot_level": true
+    },
+    {
+      "tag": "newscaster",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0,
+      "end_time_offset": 0.667333,
+      "confidence": 0.9174844622612,
+      "shot_level": true
+    },
+    {
+      "tag": "newscaster",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 0.7007,
+      "end_time_offset": 5.005,
+      "confidence": 0.9588397741317749,
+      "shot_level": true
+    },
+    {
+      "tag": "newscaster",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 5.038366,
+      "end_time_offset": 10.076733,
+      "confidence": 0.9588397741317749,
+      "shot_level": true
+    },
+    {
+      "tag": "newscaster",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.9688680768013,
+      "shot_level": true
+    },
+    {
+      "tag": "newscaster",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.9688680768013,
+      "shot_level": true
+    },
+    {
+      "tag": "newscaster",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 96.129366,
+      "end_time_offset": 97.564133,
+      "confidence": 0.9688680768013,
+      "shot_level": true
+    },
+    {
+      "tag": "orator",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 10.1101,
+      "end_time_offset": 31.4314,
+      "confidence": 0.4912441074848175,
+      "shot_level": true
+    },
+    {
+      "tag": "orator",
+      "categories": [
+        "person"
+      ],
+      "start_time_offset": 93.827066,
+      "end_time_offset": 96.096,
+      "confidence": 0.5972873568534851,
+      "shot_level": true
+    }
+  ]
+}

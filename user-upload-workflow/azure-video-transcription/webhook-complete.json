@@ -1,0 +1,1701 @@
+{
+  "info_kind": "azure_video_indexer",
+  "info_status": "complete",
+  "public_id": "azure-translation-video",
+  "uploaded_at": "2020-03-02T19:36:23Z",
+  "version": 1583177783,
+  "url": "http://res.cloudinary.com/picturecloud7/video/upload/v1583177783/azure-translation-video.mp4",
+  "secure_url": "https://res.cloudinary.com/picturecloud7/video/upload/v1583177783/azure-translation-video.mp4",
+  "etag": "2af4940bce1525a00515bf58696f926a",
+  "notification_type": "info",
+  "info_data": {
+    "es-ES": {
+      "version": "1.0.0.0",
+      "duration": "0:01:37.663",
+      "sourceLanguage": "en-US",
+      "sourceLanguages": ["en-US"],
+      "language": "es-ES",
+      "languages": ["es-ES"],
+      "transcript": [
+        {
+          "id": 1,
+          "text": "Un papel clave en la promoción del aviso sobre un Cardenal Soulas Grandes",
+          "confidence": 0.6372,
+          "speakerId": 1,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:00",
+              "adjustedEnd": "0:00:05.85",
+              "start": "0:00:00",
+              "end": "0:00:05.85"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "Expectativas. Kaipara Joe Biden Teaneck otra vez RCOC.",
+          "confidence": 0.6372,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "No van a poner en marcha el problema. La temperatura Bergen está azotando los bosques costeros en Iowa.",
+          "confidence": 0.5585,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:09.56",
+              "adjustedEnd": "0:00:16.49",
+              "start": "0:00:09.56",
+              "end": "0:00:16.49"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Sí, mira el ruido tan pronto como esté en el diferencial considerablemente.",
+          "confidence": 0.6849,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:16.49",
+              "adjustedEnd": "0:00:21.89",
+              "start": "0:00:16.49",
+              "end": "0:00:21.89"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "Sanders dice que el otro Linterna.",
+          "confidence": 0.6849,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:21.89",
+              "adjustedEnd": "0:00:24.59",
+              "start": "0:00:21.89",
+              "end": "0:00:24.59"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "Y luego como iba a encenderlo mejor Sanders después.",
+          "confidence": 0.6488,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:24.59",
+              "adjustedEnd": "0:00:29.5",
+              "start": "0:00:24.59",
+              "end": "0:00:29.5"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "Nómina",
+          "confidence": 0.5928,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:29.5",
+              "adjustedEnd": "0:00:29.99",
+              "start": "0:00:29.5",
+              "end": "0:00:29.99"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "text": "Lego en Weber Hampshire. Ian Miller de Primero Nocedal,",
+          "confidence": 0.5928,
+          "speakerId": 3,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:29.99",
+              "adjustedEnd": "0:00:34.41",
+              "start": "0:00:29.99",
+              "end": "0:00:34.41"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "Pretty Meadows",
+          "confidence": 0.5928,
+          "speakerId": 3,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:34.41",
+              "adjustedEnd": "0:00:35.39",
+              "start": "0:00:34.41",
+              "end": "0:00:35.39"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "text": "Camp Annular Econo, ver por entonces laboratorios de ADN en la habitación con esta opinión fuera de Capetown",
+          "confidence": 0.5928,
+          "speakerId": 4,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:35.39",
+              "adjustedEnd": "0:00:43.74",
+              "start": "0:00:35.39",
+              "end": "0:00:43.74"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "text": "Taurus, Pardella Gente. Arjuna sallyport es simplemente",
+          "confidence": 0.5928,
+          "speakerId": 4,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:43.74",
+              "adjustedEnd": "0:00:46.69",
+              "start": "0:00:43.74",
+              "end": "0:00:46.69"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "text": "Marisela Cone sólo importante una composición Rochelle Diversa,",
+          "confidence": 0.5928,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:46.69",
+              "adjustedEnd": "0:00:50.61",
+              "start": "0:00:46.69",
+              "end": "0:00:50.61"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "text": "Insta respuesta emocional gráfica a la localización molesto.",
+          "confidence": 0.5928,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:50.61",
+              "adjustedEnd": "0:00:54.57",
+              "start": "0:00:50.61",
+              "end": "0:00:54.57"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "text": "En 96% o menos Blanco respondió para entonces beinte sola persona a Sanders.",
+          "confidence": 0.6099,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "text": "Los ensayos, raqueta de garantía Abridges o ver Isaiah adolescente molesta más KIE Sanders dividido.",
+          "confidence": 0.6099,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:01:00.26",
+              "adjustedEnd": "0:01:06.4",
+              "start": "0:01:00.26",
+              "end": "0:01:06.4"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "text": "Quiero decir, mira el Centro,",
+          "confidence": 0.5866,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:01:06.4",
+              "adjustedEnd": "0:01:09.02",
+              "start": "0:01:06.4",
+              "end": "0:01:09.02"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "text": "Singapur siento. La política y Afro Sonian dicen tan pronto como",
+          "confidence": 0.6115,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:01:09.02",
+              "adjustedEnd": "0:01:13.43",
+              "start": "0:01:09.02",
+              "end": "0:01:13.43"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "text": "Envié a una sola persona al Caspio",
+          "confidence": 0.617,
+          "speakerId": 5,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:16.57",
+              "start": "0:01:13.43",
+              "end": "0:01:16.57"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "text": "Catalina seguro que sí que está diseñando.",
+          "confidence": 0.617,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:01:16.57",
+              "adjustedEnd": "0:01:18.94",
+              "start": "0:01:16.57",
+              "end": "0:01:18.94"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "text": "No, el CSI envió a una persona para proveer en DSC en la persona a Para Sanders en Las Vegas.",
+          "confidence": 0.6178,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:01:18.94",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:18.94",
+              "end": "0:01:25.62"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "text": "Los aburridos de advertencia de neumáticos Siesta Samantha cualquier felicia tonta es Grande proporcionan una opción de ruido C cuando Yo Grande para para entonces.",
+          "confidence": 0.6178,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:01:25.62",
+              "adjustedEnd": "0:01:33.98",
+              "start": "0:01:25.62",
+              "end": "0:01:33.98"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "text": "Bastante cuidadoso metro al lado y la felicidad en el supermercado.",
+          "confidence": 0.6252,
+          "speakerId": 2,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:01:33.98",
+              "adjustedEnd": "0:01:37.663",
+              "start": "0:01:33.98",
+              "end": "0:01:37.663"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "id": 1,
+          "text": "persona sola",
+          "confidence": 0.9916,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            },
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:16.57",
+              "start": "0:01:13.43",
+              "end": "0:01:16.57"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "Sanders",
+          "confidence": 0.8041,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:21.89",
+              "adjustedEnd": "0:00:24.59",
+              "start": "0:00:21.89",
+              "end": "0:00:24.59"
+            },
+            {
+              "adjustedStart": "0:00:24.59",
+              "adjustedEnd": "0:00:29.5",
+              "start": "0:00:24.59",
+              "end": "0:00:29.5"
+            },
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            },
+            {
+              "adjustedStart": "0:01:00.26",
+              "adjustedEnd": "0:01:06.4",
+              "start": "0:01:00.26",
+              "end": "0:01:06.4"
+            },
+            {
+              "adjustedStart": "0:01:18.94",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:18.94",
+              "end": "0:01:25.62"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "Proporcionar",
+          "confidence": 0.8041,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:01:18.94",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:18.94",
+              "end": "0:01:25.62"
+            },
+            {
+              "adjustedStart": "0:01:25.62",
+              "adjustedEnd": "0:01:33.98",
+              "start": "0:01:25.62",
+              "end": "0:01:33.98"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Persona",
+          "confidence": 0.7514,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            },
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:16.57",
+              "start": "0:01:13.43",
+              "end": "0:01:16.57"
+            },
+            {
+              "adjustedStart": "0:01:18.94",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:18.94",
+              "end": "0:01:25.62"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "Ruido",
+          "confidence": 0.6211,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:16.49",
+              "adjustedEnd": "0:00:21.89",
+              "start": "0:00:16.49",
+              "end": "0:00:21.89"
+            },
+            {
+              "adjustedStart": "0:01:25.62",
+              "adjustedEnd": "0:01:33.98",
+              "start": "0:01:25.62",
+              "end": "0:01:33.98"
+            }
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": 1,
+          "name": "Alumnos de la Universidad de Delaware",
+          "referenceId": "Categoría:University_of_Delaware_alumni",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Category:University_of_Delaware_alumni",
+          "referenceType": "Wikipedia",
+          "confidence": 0.691,
+          "iabName": null,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Abogados",
+          "referenceId": "Categoría:Abogados",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Category:Lawyers",
+          "referenceType": "Wikipedia",
+          "confidence": 0.6887,
+          "iabName": null,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Persona",
+          "referenceId": "Categoría:Persona",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Category:Personhood",
+          "referenceType": "Wikipedia",
+          "confidence": 0.6761,
+          "iabName": null,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            },
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:13.43",
+              "end": "0:01:25.62"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "propio",
+          "referenceId": "Categoría:Self",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Category:Self",
+          "referenceType": "Wikipedia",
+          "confidence": 0.6745,
+          "iabName": null,
+          "language": "es-ES",
+          "instances": [
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            },
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:13.43",
+              "end": "0:01:25.62"
+            }
+          ]
+        }
+      ],
+      "brands": [
+        {
+          "id": 1,
+          "referenceType": "Wiki",
+          "name": "Verenium Corporation",
+          "referenceId": "Verenium_Corporation",
+          "referenceUrl": "http://en.wikipedia.org/wiki/Verenium_Corporation",
+          "description": "Verenium Corporation is a San Diego, California-based industrial biotechnology company that specializes in the development of high performance enzymes. Verenium's tailored enzymes are environmentally friendly, making products and processes greener and more cost-effective for industries including the global food and fuel markets.",
+          "tags": [],
+          "confidence": 0.6338,
+          "isCustom": false,
+          "instances": [
+            {
+              "brandType": "Transcript",
+              "instanceSource": "Transcript",
+              "adjustedStart": "0:00:46.69",
+              "adjustedEnd": "0:00:50.61",
+              "start": "0:00:46.69",
+              "end": "0:00:50.61"
+            }
+          ]
+        }
+      ],
+      "namedLocations": [
+        {
+          "id": 1,
+          "name": "Cape Town",
+          "referenceId": "Cape_Town",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Cape_Town",
+          "description": "Cape Town (Afrikaans: Kaapstad [ˈkɑːpstat]; Xhosa: iKapa; Dutch: Kaapstad; South Sotho: Motse Kapa) is the oldest city in South Africa, colloquially named the Mother City. It is the legislative capital of South Africa and primate city of the Western Cape province. It forms part of the City of Cape Town metropolitan municipality.",
+          "tags": [],
+          "confidence": 0.3274,
+          "isCustom": false,
+          "instances": [
+            {
+              "instanceSource": "Transcript",
+              "adjustedStart": "0:00:35.39",
+              "adjustedEnd": "0:00:43.74",
+              "start": "0:00:35.39",
+              "end": "0:00:43.74"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Teaneck, New Jersey",
+          "referenceId": "Teaneck,_New_Jersey",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Teaneck,_New_Jersey",
+          "description": "Teaneck /ˈtiːnɛk/ is a township in Bergen County, New Jersey, United States, and a suburb in the New York metropolitan area. As of the 2010 United States Census, the township's population was 39,776, reflecting an increase of 516 (+1.3%) from the 39,260 counted in the 2000 Census, which had in turn increased by 1,435 (+3.8%) from the 37,825 counted in the 1990 Census.",
+          "tags": [],
+          "confidence": 0.3732,
+          "isCustom": false,
+          "instances": [
+            {
+              "instanceSource": "Transcript",
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        }
+      ],
+      "namedPeople": [
+        {
+          "id": 1,
+          "name": "Enrique Bunbury",
+          "referenceId": "Enrique_Bunbury",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Enrique_Bunbury",
+          "description": "Enrique Bunbury was born on August 11, 1967 in Zaragoza, Zaragoza, Aragón, Spain as Enrique Ortiz de Landázuri Yzarduy. He has been married to José Girl since 2012. They have one child. He was previously married to Nona Rubio.",
+          "tags": [],
+          "confidence": 0.6332,
+          "isCustom": false,
+          "instances": [
+            {
+              "instanceSource": "Transcript",
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Joe Biden",
+          "referenceId": "Joe_Biden",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "description": "http://en.wikipedia.org/wiki/Joe_Biden\r\n\r\nJoseph Robinette \"Joe\" Biden, Jr. (pronunciation: /ˈdʒoʊzɪf rɒbɪˈnɛt ˈbaɪdən/; born November 20, 1942) is the 47th and current Vice President of the United States, serving under President Barack Obama. He was a United States Senator from Delaware from January 3, 1973 until his resignation on January 15, 2009, following his election to the Vice Presidency.\r\n\r\nBiden was born in Scranton, Pennsylvania and lived there for ten years before moving to Delaware. He became an attorney in 1969, and was elected to a county council in 1970. Biden was first elected to the Senate in 1972 and became the sixth-youngest senator in U.S. history. He was re-elected to the Senate six times, was the fourth most senior senator at the time of his resignation, and is the 14th-longest serving Senator in history. Biden was a long-time member and former chairman of the Foreign Relations Committee. His strong advocacy helped bring about U.S. military assistance and intervention during the Bosnian War. He opposed the Gulf War in 1991. He voted in favor of the Iraq War Resolution in 2002, but later proposed resolutions to alter U.S. strategy there. He has also served as chairman of the Senate Judiciary Committee, dealing with issues related to drug policy, crime prevention, and civil liberties, and led creation of the Violent Crime Control and Law Enforcement Act and Violence Against Women Act. He chaired the Judiciary Committee during the contentious U.S. Supreme Court nominations of Robert Bork and Clarence Thomas.\r\n\r\nBiden unsuccessfully sought the Democratic presidential nomination in 1988 and 2008, both times dropping out early in the race. Barack Obama selected Biden to be the Democratic Party nominee for Vice President in the 2008 U.S. presidential election. Biden is the first Roman Catholic and the first Delawarean to become Vice President of the United States. As Vice President, Biden has been heavily involved in Obama's decision-making process and has held the oversight role for infrastructure spending from the Obama stimulus package aimed at counteracting the late-2000s recession.\r\n\r\nEarly life and education:\r\n\r\nBiden was born in Scranton, Pennsylvania, the son of Joseph Robinette Biden Sr. (1915–2002) and Catherine Eugenia \"Jean\" Finnegan (1917–2010). He was the first of four siblings in an Irish Catholic family with roots in County Londonderry. He has two brothers, James Brian Biden and Francis W. Biden, and a sister, Valerie (Biden) Owens. His great-grandfather, Edward F. Blewitt, was a member of the Pennsylvania State Senate.\r\n\r\nBiden's father had been very well-off earlier in his life, but had suffered several business reverses by the time Biden was born,[8] and for several years the family had to live with Biden's maternal grandparents, the Finnegans.[8] When the Scranton area went into economic decline during the 1950s, Biden's father could not find enough work. In 1953, the Biden family moved to an apartment in Claymont, Delaware, where they lived for a few years before moving to a house in Wilmington, Delaware. Joe Biden Sr. then did better as a used car salesman, and the family's circumstances were middle class.\r\n\r\nBiden attended the Archmere Academy in Claymont, where he was a standout halfback/wide receiver on the high school football team; he helped lead a perennially losing team to an undefeated season in his senior year. He played on the baseball team as well. During these years, he participated in an anti-segregation sit-in at a Wilmington theatre. Academically, Biden was undistinguished, but he was a natural leader among the students. He graduated in 1961.\r\n\r\nBiden attended the University of Delaware in Newark, where he was more interested in sports and socializing than in studying, although his classmates were impressed by his cramming abilities. He played halfback with the Blue Hens freshman football team, but he dropped a junior year plan to play for the varsity team as a defensive back, enabling him to spend more time with his out-of-state girlfriend. He graduated with a Bachelor of Arts with a double major in history and political science in 1965, ranked 506th of 688 in his class.\r\n\r\nHe went on to receive his Juris Doctor from Syracuse University College of Law in 1968, where by his own description he found it to be \"the biggest bore in the world\" and pulled many all-nighters to get by. During his first year there, he was accused of having plagiarized 5 of 15 pages of a law review article. Biden said it was inadvertent due to his not knowing the proper rules of citation, and he was permitted to retake the course after receiving a grade of F, which was subsequently dropped from his record. He was admitted to the Delaware Bar in 1969.\r\n\r\nBiden received five student draft deferments during this period, with the first coming in late 1963 and the last in early 1968, at the peak of the Vietnam War. In April 1968, he was reclassified by the Selective Service System as not available for service due to having had asthma as a teenager. Biden was not a part of the anti-Vietnam War movement; he would later say that at the time he was preoccupied with marriage and law school, and that he \"wore sports coats ... not tie-dyed\".\r\n\r\nNegative impressions of drinking alcohol in the Biden and Finnegan families and in the neighborhood led to Joe Biden becoming a teetotaler. Biden suffered from stuttering through much of his childhood and into his twenties; he overcame it via long hours spent reciting poetry in front of a mirror.\r\n\r\nFamily and early political career:\r\n\r\nOn August 27, 1966, Biden, then a law student, married Neilia Hunter, who was from an affluent background in Skaneateles, New York and had attended Syracuse University. They had met in 1964 while on spring break in the Bahamas, and he had overcome her parents' initial reluctance for her to be dating a Roman Catholic. They had three children, Joseph R. \"Beau\" Biden III (born 1969), Robert Hunter (born 1970), and Naomi Christina (born 1971).\r\n\r\nIn 1969, Biden began practicing law in Wilmington, Delaware, first as a public defender and then with his own firm, Biden and Walsh. Corporate law, however, did not appeal to him and criminal law did not pay well. He supplemented his income by managing properties. He ran as a Democrat for the New Castle County Council on a liberal platform that included support for public housing in the suburban area. He won by a solid margin in the usually Republican district, and served from 1970 to 1972 while continuing his private law practice as well.\r\n\r\nHis entry into the 1972 U.S. Senate election in Delaware presented Biden with a unique circumstance. Longtime Delaware political figure and Republican incumbent Senator J. Caleb Boggs was considering retirement, which would likely have left U.S. Representative Pete du Pont and Wilmington Mayor Harry G. Haskell, Jr. in a divisive primary fight. To avoid that, U.S. President Richard M. Nixon helped convince Boggs to run again with full party support. No other Democrat wanted to run against Boggs. Biden's campaign had virtually no money and was given no chance of winning. It was managed by his sister Valerie Biden Owens (who would go on to manage his future campaigns as well) and staffed by other members of his family, and relied upon handed-out newsprint position papers and meeting voters face-to-face; the small size of the state and lack of a major media market made the approach feasible. Biden did receive some assistance from the AFL-CIO and Democratic pollster Patrick Caddell. Biden's campaign issues focused on withdrawal from Vietnam, the environment, civil rights, mass transit, more equitable taxation, health care, the public's dissatisfaction with politics-as-usual, and \"change\". During the summer Biden trailed by almost 30 percentage points, but his energy level, his attractive young family, and his ability to connect with voters' emotions gave the surging Biden an advantage over the ready-to-retire Boggs. Biden won the November 7, 1972 election in an upset by a margin of 3,162 votes.\r\n\r\nOn December 18, 1972, a few weeks after the election, Biden's wife and one-year-old daughter were killed in an automobile accident while Christmas shopping in Hockessin, Delaware. Neilia Biden's station wagon was hit by a tractor-trailer as she pulled out from an intersection; the truck driver was cleared of any wrongdoing. Biden's two sons, Beau and Hunter, were critically injured in the accident, but both eventually made full recoveries. Biden considered resigning to care for them; he was persuaded not to by Senate Majority Leader Mike Mansfield and others and was sworn into office from one of their bedsides. The accident left Biden filled with both anger and religious doubt: \"I liked to [walk around seedy neighborhoods] at night when I thought there was a better chance of finding a fight ... I had not known I was capable of such rage ... I felt God had played a horrible trick on me.\"\r\n\r\nTo be at home every day for his young sons, Biden began the practice of commuting every day by Amtrak train for 1½ hours each way from his home in the Wilmington suburbs to Washington, D.C., which he continued to do throughout his Senate career. In the aftermath of the accident, he had trouble focusing on work, and appeared to just go through the motions of being a senator. In his memoirs, Biden notes that staffers were taking bets on how long he would last. A single father for five years, Biden left standing orders that he be interrupted in the Senate at any time if his sons called. In remembrance of his wife and daughter, Biden does not work on December 18, the anniversary of the accident. Biden's elder son, Beau, later became Delaware Attorney General and an Army Judge Advocate serving in Iraq; his younger son, Hunter, became a Washington attorney and lobbyist.\r\n\r\nIn 1975, Biden met Jill Tracy Jacobs, who grew up in Willow Grove, Pennsylvania and would become a teacher in Delaware. They had met on a blind date with the help of Biden's brother, although it turned out that Biden had already noticed her in a local advertisement. Biden would credit her with renewing his interest in both politics and life. On June 17, 1977, Biden and Jacobs married. They have one daughter, Ashley Blazer (born 1981), who later became a social worker. The Bidens are Roman Catholics and regularly attend Mass at St. Joseph on the Brandywine in Greenville, Delaware.",
+          "tags": [],
+          "confidence": 0.7176,
+          "isCustom": false,
+          "instances": [
+            {
+              "instanceSource": "Transcript",
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        }
+      ],
+      "sentiments": [
+        {
+          "id": 1,
+          "averageScore": 0.5,
+          "sentimentType": "Neutral",
+          "instances": [
+            {
+              "adjustedStart": "0:00:00",
+              "adjustedEnd": "0:01:33.98",
+              "start": "0:00:00",
+              "end": "0:01:33.98"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "averageScore": 0.9628,
+          "sentimentType": "Positive",
+          "instances": [
+            {
+              "adjustedStart": "0:01:33.98",
+              "adjustedEnd": "0:01:37.663",
+              "start": "0:01:33.98",
+              "end": "0:01:37.663"
+            }
+          ]
+        }
+      ],
+      "emotions": [
+        {
+          "id": 1,
+          "type": "Joy",
+          "instances": [
+            {
+              "confidence": 0.7523,
+              "adjustedStart": "0:01:33.98",
+              "adjustedEnd": "0:01:37.663",
+              "start": "0:01:33.98",
+              "end": "0:01:37.663"
+            }
+          ]
+        }
+      ],
+      "blocks": [
+        {
+          "id": 0,
+          "instances": [
+            {
+              "adjustedStart": "0:00:00",
+              "adjustedEnd": "0:00:34.41",
+              "start": "0:00:00",
+              "end": "0:00:34.41"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "instances": [
+            {
+              "adjustedStart": "0:00:34.41",
+              "adjustedEnd": "0:01:06.4",
+              "start": "0:00:34.41",
+              "end": "0:01:06.4"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "instances": [
+            {
+              "adjustedStart": "0:01:06.4",
+              "adjustedEnd": "0:01:37.663",
+              "start": "0:01:06.4",
+              "end": "0:01:37.663"
+            }
+          ]
+        }
+      ],
+      "speakers": [
+        {
+          "id": 1,
+          "name": "Speaker #1",
+          "instances": [
+            {
+              "adjustedStart": "0:00:00",
+              "adjustedEnd": "0:00:05.85",
+              "start": "0:00:00",
+              "end": "0:00:05.85"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Speaker #2",
+          "instances": [
+            {
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:29.99",
+              "start": "0:00:05.85",
+              "end": "0:00:29.99"
+            },
+            {
+              "adjustedStart": "0:00:46.69",
+              "adjustedEnd": "0:01:13.43",
+              "start": "0:00:46.69",
+              "end": "0:01:13.43"
+            },
+            {
+              "adjustedStart": "0:01:16.57",
+              "adjustedEnd": "0:01:37.663",
+              "start": "0:01:16.57",
+              "end": "0:01:37.663"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Speaker #3",
+          "instances": [
+            {
+              "adjustedStart": "0:00:29.99",
+              "adjustedEnd": "0:00:35.39",
+              "start": "0:00:29.99",
+              "end": "0:00:35.39"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Speaker #4",
+          "instances": [
+            {
+              "adjustedStart": "0:00:35.39",
+              "adjustedEnd": "0:00:46.69",
+              "start": "0:00:35.39",
+              "end": "0:00:46.69"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Speaker #5",
+          "instances": [
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:16.57",
+              "start": "0:01:13.43",
+              "end": "0:01:16.57"
+            }
+          ]
+        }
+      ],
+      "textualContentModeration": {
+        "id": 0,
+        "bannedWordsCount": 0,
+        "bannedWordsRatio": 0,
+        "instances": []
+      },
+      "statistics": {
+        "correspondenceCount": 6,
+        "speakerTalkToListenRatio": {
+          "1": 0.059,
+          "2": 0.736,
+          "3": 0.055,
+          "4": 0.115,
+          "5": 0.032
+        },
+        "speakerLongestMonolog": {
+          "1": 5,
+          "2": 26,
+          "3": 5,
+          "4": 11,
+          "5": 3
+        },
+        "speakerNumberOfFragments": {
+          "1": 1,
+          "2": 3,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "speakerWordCount": {
+          "1": 11,
+          "2": 160,
+          "3": 11,
+          "4": 23,
+          "5": 8
+        }
+      }
+    },
+    "en-US": {
+      "version": "1.0.0.0",
+      "duration": "0:01:37.663",
+      "sourceLanguage": "en-US",
+      "sourceLanguages": ["en-US"],
+      "language": "en-US",
+      "languages": ["en-US"],
+      "transcript": [
+        {
+          "id": 1,
+          "text": "A key role in promoting notice over a Cardinal Soulas Grandes",
+          "confidence": 0.6372,
+          "speakerId": 1,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:00",
+              "adjustedEnd": "0:00:05.85",
+              "start": "0:00:00",
+              "end": "0:00:05.85"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "Expectativas. Kaipara Joe Biden Teaneck again RCOC.",
+          "confidence": 0.6372,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "They'll contraria starting problem. Temperature Bergen are lashing coastal forests in Iowa.",
+          "confidence": 0.5585,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:09.56",
+              "adjustedEnd": "0:00:16.49",
+              "start": "0:00:09.56",
+              "end": "0:00:16.49"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Yes, see noise soon as he's in the differential considerably.",
+          "confidence": 0.6849,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:16.49",
+              "adjustedEnd": "0:00:21.89",
+              "start": "0:00:16.49",
+              "end": "0:00:21.89"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "Sanders say the other Lantern.",
+          "confidence": 0.6849,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:21.89",
+              "adjustedEnd": "0:00:24.59",
+              "start": "0:00:21.89",
+              "end": "0:00:24.59"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "And then as I was gonna light it better Sanders afterward.",
+          "confidence": 0.6488,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:24.59",
+              "adjustedEnd": "0:00:29.5",
+              "start": "0:00:24.59",
+              "end": "0:00:29.5"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "Payroll",
+          "confidence": 0.5928,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:29.5",
+              "adjustedEnd": "0:00:29.99",
+              "start": "0:00:29.5",
+              "end": "0:00:29.99"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "text": "Lego in Weber Hampshire. Ian Miller from Primero Nocedal,",
+          "confidence": 0.5928,
+          "speakerId": 3,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:29.99",
+              "adjustedEnd": "0:00:34.41",
+              "start": "0:00:29.99",
+              "end": "0:00:34.41"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "Pretty Meadows",
+          "confidence": 0.5928,
+          "speakerId": 3,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:34.41",
+              "adjustedEnd": "0:00:35.39",
+              "start": "0:00:34.41",
+              "end": "0:00:35.39"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "text": "Camp Annular Econo, see by then DNA labs in the room with this opinion outside Capetown Taurus,",
+          "confidence": 0.5928,
+          "speakerId": 4,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:35.39",
+              "adjustedEnd": "0:00:43.74",
+              "start": "0:00:35.39",
+              "end": "0:00:43.74"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "text": "Pardella Gente. Arjuna sallyport is simply",
+          "confidence": 0.5928,
+          "speakerId": 4,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:43.74",
+              "adjustedEnd": "0:00:46.69",
+              "start": "0:00:43.74",
+              "end": "0:00:46.69"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "text": "Marisela Cone only important a composition Rochelle Diversa,",
+          "confidence": 0.5928,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:46.69",
+              "adjustedEnd": "0:00:50.61",
+              "start": "0:00:46.69",
+              "end": "0:00:50.61"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "text": "Insta graphical emotional response to the located annoying.",
+          "confidence": 0.5928,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:50.61",
+              "adjustedEnd": "0:00:54.57",
+              "start": "0:00:50.61",
+              "end": "0:00:54.57"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "text": "In 96% or less Blanco responded by then beinte single person to Sanders.",
+          "confidence": 0.6099,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "text": "The essays, Abridges warranty racket or see Isaiah teen annoy most KIE Sanders divided.",
+          "confidence": 0.6099,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:01:00.26",
+              "adjustedEnd": "0:01:06.4",
+              "start": "0:01:00.26",
+              "end": "0:01:06.4"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "text": "I mean look at the Centre,",
+          "confidence": 0.5866,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:01:06.4",
+              "adjustedEnd": "0:01:09.02",
+              "start": "0:01:06.4",
+              "end": "0:01:09.02"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "text": "Singapore siento. The policy and Afro Sonian say as soon as",
+          "confidence": 0.6115,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:01:09.02",
+              "adjustedEnd": "0:01:13.43",
+              "start": "0:01:09.02",
+              "end": "0:01:13.43"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "text": "I sent a single person to the Caspian",
+          "confidence": 0.617,
+          "speakerId": 5,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:16.57",
+              "start": "0:01:13.43",
+              "end": "0:01:16.57"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "text": "Catalina sure yeah he is designing.",
+          "confidence": 0.617,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:01:16.57",
+              "adjustedEnd": "0:01:18.94",
+              "start": "0:01:16.57",
+              "end": "0:01:18.94"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "text": "No, the CSI sent a person to provide in DSC at the person to para Sanders in Vegas.",
+          "confidence": 0.6178,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:01:18.94",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:18.94",
+              "end": "0:01:25.62"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "text": "Tire warning borages Siesta Samantha any silly Felicia is Grande provide an option C noise when I Grande para by then.",
+          "confidence": 0.6178,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:01:25.62",
+              "adjustedEnd": "0:01:33.98",
+              "start": "0:01:25.62",
+              "end": "0:01:33.98"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "text": "Quite careful subway beside and happiness at the supermarket.",
+          "confidence": 0.6252,
+          "speakerId": 2,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:01:33.98",
+              "adjustedEnd": "0:01:37.663",
+              "start": "0:01:33.98",
+              "end": "0:01:37.663"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "id": 1,
+          "text": "single person",
+          "confidence": 0.9916,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            },
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:16.57",
+              "start": "0:01:13.43",
+              "end": "0:01:16.57"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "sanders",
+          "confidence": 0.8041,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:21.89",
+              "adjustedEnd": "0:00:24.59",
+              "start": "0:00:21.89",
+              "end": "0:00:24.59"
+            },
+            {
+              "adjustedStart": "0:00:24.59",
+              "adjustedEnd": "0:00:29.5",
+              "start": "0:00:24.59",
+              "end": "0:00:29.5"
+            },
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            },
+            {
+              "adjustedStart": "0:01:00.26",
+              "adjustedEnd": "0:01:06.4",
+              "start": "0:01:00.26",
+              "end": "0:01:06.4"
+            },
+            {
+              "adjustedStart": "0:01:18.94",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:18.94",
+              "end": "0:01:25.62"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "provide",
+          "confidence": 0.8041,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:01:18.94",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:18.94",
+              "end": "0:01:25.62"
+            },
+            {
+              "adjustedStart": "0:01:25.62",
+              "adjustedEnd": "0:01:33.98",
+              "start": "0:01:25.62",
+              "end": "0:01:33.98"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "person",
+          "confidence": 0.7514,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            },
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:16.57",
+              "start": "0:01:13.43",
+              "end": "0:01:16.57"
+            },
+            {
+              "adjustedStart": "0:01:18.94",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:18.94",
+              "end": "0:01:25.62"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "noise",
+          "confidence": 0.6211,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:16.49",
+              "adjustedEnd": "0:00:21.89",
+              "start": "0:00:16.49",
+              "end": "0:00:21.89"
+            },
+            {
+              "adjustedStart": "0:01:25.62",
+              "adjustedEnd": "0:01:33.98",
+              "start": "0:01:25.62",
+              "end": "0:01:33.98"
+            }
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": 1,
+          "name": "University of Delaware alumni",
+          "referenceId": "Category:University_of_Delaware_alumni",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Category:University_of_Delaware_alumni",
+          "referenceType": "Wikipedia",
+          "confidence": 0.691,
+          "iabName": null,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Lawyers",
+          "referenceId": "Category:Lawyers",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Category:Lawyers",
+          "referenceType": "Wikipedia",
+          "confidence": 0.6887,
+          "iabName": null,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Personhood",
+          "referenceId": "Category:Personhood",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Category:Personhood",
+          "referenceType": "Wikipedia",
+          "confidence": 0.6761,
+          "iabName": null,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            },
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:13.43",
+              "end": "0:01:25.62"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Self",
+          "referenceId": "Category:Self",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Category:Self",
+          "referenceType": "Wikipedia",
+          "confidence": 0.6745,
+          "iabName": null,
+          "language": "en-US",
+          "instances": [
+            {
+              "adjustedStart": "0:00:54.57",
+              "adjustedEnd": "0:01:00.26",
+              "start": "0:00:54.57",
+              "end": "0:01:00.26"
+            },
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:25.62",
+              "start": "0:01:13.43",
+              "end": "0:01:25.62"
+            }
+          ]
+        }
+      ],
+      "brands": [
+        {
+          "id": 1,
+          "referenceType": "Wiki",
+          "name": "Verenium Corporation",
+          "referenceId": "Verenium_Corporation",
+          "referenceUrl": "http://en.wikipedia.org/wiki/Verenium_Corporation",
+          "description": "Verenium Corporation is a San Diego, California-based industrial biotechnology company that specializes in the development of high performance enzymes. Verenium's tailored enzymes are environmentally friendly, making products and processes greener and more cost-effective for industries including the global food and fuel markets.",
+          "tags": [],
+          "confidence": 0.6338,
+          "isCustom": false,
+          "instances": [
+            {
+              "brandType": "Transcript",
+              "instanceSource": "Transcript",
+              "adjustedStart": "0:00:46.69",
+              "adjustedEnd": "0:00:50.61",
+              "start": "0:00:46.69",
+              "end": "0:00:50.61"
+            }
+          ]
+        }
+      ],
+      "namedLocations": [
+        {
+          "id": 1,
+          "name": "Cape Town",
+          "referenceId": "Cape_Town",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Cape_Town",
+          "description": "Cape Town (Afrikaans: Kaapstad [ˈkɑːpstat]; Xhosa: iKapa; Dutch: Kaapstad; South Sotho: Motse Kapa) is the oldest city in South Africa, colloquially named the Mother City. It is the legislative capital of South Africa and primate city of the Western Cape province. It forms part of the City of Cape Town metropolitan municipality.",
+          "tags": [],
+          "confidence": 0.3274,
+          "isCustom": false,
+          "instances": [
+            {
+              "instanceSource": "Transcript",
+              "adjustedStart": "0:00:35.39",
+              "adjustedEnd": "0:00:43.74",
+              "start": "0:00:35.39",
+              "end": "0:00:43.74"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Teaneck, New Jersey",
+          "referenceId": "Teaneck,_New_Jersey",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Teaneck,_New_Jersey",
+          "description": "Teaneck /ˈtiːnɛk/ is a township in Bergen County, New Jersey, United States, and a suburb in the New York metropolitan area. As of the 2010 United States Census, the township's population was 39,776, reflecting an increase of 516 (+1.3%) from the 39,260 counted in the 2000 Census, which had in turn increased by 1,435 (+3.8%) from the 37,825 counted in the 1990 Census.",
+          "tags": [],
+          "confidence": 0.3732,
+          "isCustom": false,
+          "instances": [
+            {
+              "instanceSource": "Transcript",
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        }
+      ],
+      "namedPeople": [
+        {
+          "id": 1,
+          "name": "Enrique Bunbury",
+          "referenceId": "Enrique_Bunbury",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Enrique_Bunbury",
+          "description": "Enrique Bunbury was born on August 11, 1967 in Zaragoza, Zaragoza, Aragón, Spain as Enrique Ortiz de Landázuri Yzarduy. He has been married to José Girl since 2012. They have one child. He was previously married to Nona Rubio.",
+          "tags": [],
+          "confidence": 0.6332,
+          "isCustom": false,
+          "instances": [
+            {
+              "instanceSource": "Transcript",
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Joe Biden",
+          "referenceId": "Joe_Biden",
+          "referenceUrl": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "description": "http://en.wikipedia.org/wiki/Joe_Biden\r\n\r\nJoseph Robinette \"Joe\" Biden, Jr. (pronunciation: /ˈdʒoʊzɪf rɒbɪˈnɛt ˈbaɪdən/; born November 20, 1942) is the 47th and current Vice President of the United States, serving under President Barack Obama. He was a United States Senator from Delaware from January 3, 1973 until his resignation on January 15, 2009, following his election to the Vice Presidency.\r\n\r\nBiden was born in Scranton, Pennsylvania and lived there for ten years before moving to Delaware. He became an attorney in 1969, and was elected to a county council in 1970. Biden was first elected to the Senate in 1972 and became the sixth-youngest senator in U.S. history. He was re-elected to the Senate six times, was the fourth most senior senator at the time of his resignation, and is the 14th-longest serving Senator in history. Biden was a long-time member and former chairman of the Foreign Relations Committee. His strong advocacy helped bring about U.S. military assistance and intervention during the Bosnian War. He opposed the Gulf War in 1991. He voted in favor of the Iraq War Resolution in 2002, but later proposed resolutions to alter U.S. strategy there. He has also served as chairman of the Senate Judiciary Committee, dealing with issues related to drug policy, crime prevention, and civil liberties, and led creation of the Violent Crime Control and Law Enforcement Act and Violence Against Women Act. He chaired the Judiciary Committee during the contentious U.S. Supreme Court nominations of Robert Bork and Clarence Thomas.\r\n\r\nBiden unsuccessfully sought the Democratic presidential nomination in 1988 and 2008, both times dropping out early in the race. Barack Obama selected Biden to be the Democratic Party nominee for Vice President in the 2008 U.S. presidential election. Biden is the first Roman Catholic and the first Delawarean to become Vice President of the United States. As Vice President, Biden has been heavily involved in Obama's decision-making process and has held the oversight role for infrastructure spending from the Obama stimulus package aimed at counteracting the late-2000s recession.\r\n\r\nEarly life and education:\r\n\r\nBiden was born in Scranton, Pennsylvania, the son of Joseph Robinette Biden Sr. (1915–2002) and Catherine Eugenia \"Jean\" Finnegan (1917–2010). He was the first of four siblings in an Irish Catholic family with roots in County Londonderry. He has two brothers, James Brian Biden and Francis W. Biden, and a sister, Valerie (Biden) Owens. His great-grandfather, Edward F. Blewitt, was a member of the Pennsylvania State Senate.\r\n\r\nBiden's father had been very well-off earlier in his life, but had suffered several business reverses by the time Biden was born,[8] and for several years the family had to live with Biden's maternal grandparents, the Finnegans.[8] When the Scranton area went into economic decline during the 1950s, Biden's father could not find enough work. In 1953, the Biden family moved to an apartment in Claymont, Delaware, where they lived for a few years before moving to a house in Wilmington, Delaware. Joe Biden Sr. then did better as a used car salesman, and the family's circumstances were middle class.\r\n\r\nBiden attended the Archmere Academy in Claymont, where he was a standout halfback/wide receiver on the high school football team; he helped lead a perennially losing team to an undefeated season in his senior year. He played on the baseball team as well. During these years, he participated in an anti-segregation sit-in at a Wilmington theatre. Academically, Biden was undistinguished, but he was a natural leader among the students. He graduated in 1961.\r\n\r\nBiden attended the University of Delaware in Newark, where he was more interested in sports and socializing than in studying, although his classmates were impressed by his cramming abilities. He played halfback with the Blue Hens freshman football team, but he dropped a junior year plan to play for the varsity team as a defensive back, enabling him to spend more time with his out-of-state girlfriend. He graduated with a Bachelor of Arts with a double major in history and political science in 1965, ranked 506th of 688 in his class.\r\n\r\nHe went on to receive his Juris Doctor from Syracuse University College of Law in 1968, where by his own description he found it to be \"the biggest bore in the world\" and pulled many all-nighters to get by. During his first year there, he was accused of having plagiarized 5 of 15 pages of a law review article. Biden said it was inadvertent due to his not knowing the proper rules of citation, and he was permitted to retake the course after receiving a grade of F, which was subsequently dropped from his record. He was admitted to the Delaware Bar in 1969.\r\n\r\nBiden received five student draft deferments during this period, with the first coming in late 1963 and the last in early 1968, at the peak of the Vietnam War. In April 1968, he was reclassified by the Selective Service System as not available for service due to having had asthma as a teenager. Biden was not a part of the anti-Vietnam War movement; he would later say that at the time he was preoccupied with marriage and law school, and that he \"wore sports coats ... not tie-dyed\".\r\n\r\nNegative impressions of drinking alcohol in the Biden and Finnegan families and in the neighborhood led to Joe Biden becoming a teetotaler. Biden suffered from stuttering through much of his childhood and into his twenties; he overcame it via long hours spent reciting poetry in front of a mirror.\r\n\r\nFamily and early political career:\r\n\r\nOn August 27, 1966, Biden, then a law student, married Neilia Hunter, who was from an affluent background in Skaneateles, New York and had attended Syracuse University. They had met in 1964 while on spring break in the Bahamas, and he had overcome her parents' initial reluctance for her to be dating a Roman Catholic. They had three children, Joseph R. \"Beau\" Biden III (born 1969), Robert Hunter (born 1970), and Naomi Christina (born 1971).\r\n\r\nIn 1969, Biden began practicing law in Wilmington, Delaware, first as a public defender and then with his own firm, Biden and Walsh. Corporate law, however, did not appeal to him and criminal law did not pay well. He supplemented his income by managing properties. He ran as a Democrat for the New Castle County Council on a liberal platform that included support for public housing in the suburban area. He won by a solid margin in the usually Republican district, and served from 1970 to 1972 while continuing his private law practice as well.\r\n\r\nHis entry into the 1972 U.S. Senate election in Delaware presented Biden with a unique circumstance. Longtime Delaware political figure and Republican incumbent Senator J. Caleb Boggs was considering retirement, which would likely have left U.S. Representative Pete du Pont and Wilmington Mayor Harry G. Haskell, Jr. in a divisive primary fight. To avoid that, U.S. President Richard M. Nixon helped convince Boggs to run again with full party support. No other Democrat wanted to run against Boggs. Biden's campaign had virtually no money and was given no chance of winning. It was managed by his sister Valerie Biden Owens (who would go on to manage his future campaigns as well) and staffed by other members of his family, and relied upon handed-out newsprint position papers and meeting voters face-to-face; the small size of the state and lack of a major media market made the approach feasible. Biden did receive some assistance from the AFL-CIO and Democratic pollster Patrick Caddell. Biden's campaign issues focused on withdrawal from Vietnam, the environment, civil rights, mass transit, more equitable taxation, health care, the public's dissatisfaction with politics-as-usual, and \"change\". During the summer Biden trailed by almost 30 percentage points, but his energy level, his attractive young family, and his ability to connect with voters' emotions gave the surging Biden an advantage over the ready-to-retire Boggs. Biden won the November 7, 1972 election in an upset by a margin of 3,162 votes.\r\n\r\nOn December 18, 1972, a few weeks after the election, Biden's wife and one-year-old daughter were killed in an automobile accident while Christmas shopping in Hockessin, Delaware. Neilia Biden's station wagon was hit by a tractor-trailer as she pulled out from an intersection; the truck driver was cleared of any wrongdoing. Biden's two sons, Beau and Hunter, were critically injured in the accident, but both eventually made full recoveries. Biden considered resigning to care for them; he was persuaded not to by Senate Majority Leader Mike Mansfield and others and was sworn into office from one of their bedsides. The accident left Biden filled with both anger and religious doubt: \"I liked to [walk around seedy neighborhoods] at night when I thought there was a better chance of finding a fight ... I had not known I was capable of such rage ... I felt God had played a horrible trick on me.\"\r\n\r\nTo be at home every day for his young sons, Biden began the practice of commuting every day by Amtrak train for 1½ hours each way from his home in the Wilmington suburbs to Washington, D.C., which he continued to do throughout his Senate career. In the aftermath of the accident, he had trouble focusing on work, and appeared to just go through the motions of being a senator. In his memoirs, Biden notes that staffers were taking bets on how long he would last. A single father for five years, Biden left standing orders that he be interrupted in the Senate at any time if his sons called. In remembrance of his wife and daughter, Biden does not work on December 18, the anniversary of the accident. Biden's elder son, Beau, later became Delaware Attorney General and an Army Judge Advocate serving in Iraq; his younger son, Hunter, became a Washington attorney and lobbyist.\r\n\r\nIn 1975, Biden met Jill Tracy Jacobs, who grew up in Willow Grove, Pennsylvania and would become a teacher in Delaware. They had met on a blind date with the help of Biden's brother, although it turned out that Biden had already noticed her in a local advertisement. Biden would credit her with renewing his interest in both politics and life. On June 17, 1977, Biden and Jacobs married. They have one daughter, Ashley Blazer (born 1981), who later became a social worker. The Bidens are Roman Catholics and regularly attend Mass at St. Joseph on the Brandywine in Greenville, Delaware.",
+          "tags": [],
+          "confidence": 0.7176,
+          "isCustom": false,
+          "instances": [
+            {
+              "instanceSource": "Transcript",
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:09.56",
+              "start": "0:00:05.85",
+              "end": "0:00:09.56"
+            }
+          ]
+        }
+      ],
+      "sentiments": [
+        {
+          "id": 1,
+          "averageScore": 0.5,
+          "sentimentType": "Neutral",
+          "instances": [
+            {
+              "adjustedStart": "0:00:00",
+              "adjustedEnd": "0:01:33.98",
+              "start": "0:00:00",
+              "end": "0:01:33.98"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "averageScore": 0.9628,
+          "sentimentType": "Positive",
+          "instances": [
+            {
+              "adjustedStart": "0:01:33.98",
+              "adjustedEnd": "0:01:37.663",
+              "start": "0:01:33.98",
+              "end": "0:01:37.663"
+            }
+          ]
+        }
+      ],
+      "emotions": [
+        {
+          "id": 1,
+          "type": "Joy",
+          "instances": [
+            {
+              "confidence": 0.7523,
+              "adjustedStart": "0:01:33.98",
+              "adjustedEnd": "0:01:37.663",
+              "start": "0:01:33.98",
+              "end": "0:01:37.663"
+            }
+          ]
+        }
+      ],
+      "blocks": [
+        {
+          "id": 0,
+          "instances": [
+            {
+              "adjustedStart": "0:00:00",
+              "adjustedEnd": "0:00:34.41",
+              "start": "0:00:00",
+              "end": "0:00:34.41"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "instances": [
+            {
+              "adjustedStart": "0:00:34.41",
+              "adjustedEnd": "0:01:06.4",
+              "start": "0:00:34.41",
+              "end": "0:01:06.4"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "instances": [
+            {
+              "adjustedStart": "0:01:06.4",
+              "adjustedEnd": "0:01:37.663",
+              "start": "0:01:06.4",
+              "end": "0:01:37.663"
+            }
+          ]
+        }
+      ],
+      "speakers": [
+        {
+          "id": 1,
+          "name": "Speaker #1",
+          "instances": [
+            {
+              "adjustedStart": "0:00:00",
+              "adjustedEnd": "0:00:05.85",
+              "start": "0:00:00",
+              "end": "0:00:05.85"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Speaker #2",
+          "instances": [
+            {
+              "adjustedStart": "0:00:05.85",
+              "adjustedEnd": "0:00:29.99",
+              "start": "0:00:05.85",
+              "end": "0:00:29.99"
+            },
+            {
+              "adjustedStart": "0:00:46.69",
+              "adjustedEnd": "0:01:13.43",
+              "start": "0:00:46.69",
+              "end": "0:01:13.43"
+            },
+            {
+              "adjustedStart": "0:01:16.57",
+              "adjustedEnd": "0:01:37.663",
+              "start": "0:01:16.57",
+              "end": "0:01:37.663"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Speaker #3",
+          "instances": [
+            {
+              "adjustedStart": "0:00:29.99",
+              "adjustedEnd": "0:00:35.39",
+              "start": "0:00:29.99",
+              "end": "0:00:35.39"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Speaker #4",
+          "instances": [
+            {
+              "adjustedStart": "0:00:35.39",
+              "adjustedEnd": "0:00:46.69",
+              "start": "0:00:35.39",
+              "end": "0:00:46.69"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Speaker #5",
+          "instances": [
+            {
+              "adjustedStart": "0:01:13.43",
+              "adjustedEnd": "0:01:16.57",
+              "start": "0:01:13.43",
+              "end": "0:01:16.57"
+            }
+          ]
+        }
+      ],
+      "textualContentModeration": {
+        "id": 0,
+        "bannedWordsCount": 0,
+        "bannedWordsRatio": 0,
+        "instances": []
+      },
+      "statistics": {
+        "correspondenceCount": 6,
+        "speakerTalkToListenRatio": {
+          "1": 0.059,
+          "2": 0.736,
+          "3": 0.055,
+          "4": 0.115,
+          "5": 0.032
+        },
+        "speakerLongestMonolog": {
+          "1": 5,
+          "2": 26,
+          "3": 5,
+          "4": 11,
+          "5": 3
+        },
+        "speakerNumberOfFragments": {
+          "1": 1,
+          "2": 3,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "speakerWordCount": {
+          "1": 11,
+          "2": 160,
+          "3": 11,
+          "4": 23,
+          "5": 8
+        }
+      }
+    }
+  }
+}
