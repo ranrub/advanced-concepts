@@ -92,6 +92,13 @@ c_fit height 150
 ![Fit height 150](images/cs-fit-h-150.png)  
 [https://res.cloudinary.com/demo/image/upload/c_fit,h_150/face_top.jpg](https://res.cloudinary.com/demo/image/upload/c_fit,h_150/face_top.jpg)
 
+### limit fill
+
+c_lfill height 150 
+
+![Limit Padd 150](images/cs-limit-fill-150.png)  
+[https://res.cloudinary.com/demo/image/upload/c_lfill,h_150/face_top.jpg](https://res.cloudinary.com/demo/image/upload/c_lfill,h_150/face_top.jpg)
+
 #### limit pad green background 150 x 150
 
 c_lpad height 150 width 150 green background
@@ -99,15 +106,12 @@ c_lpad height 150 width 150 green background
 ![Limit Padd 150 x 150](images/cs-limit-pad-green-150-150.png)  
 [https://res.cloudinary.com/demo/image/upload/c_lpad,h_150,w_150,b_green/face_top.jpg](https://res.cloudinary.com/demo/image/upload/c_lpad,h_150,w_150,b_green/face_top.jpg)
 
-### limit fill 150 x 150
 
-c_lfill height 150 width 150 
-
-![Limit Padd 150 x 150](images/cs-limit-fill-150-150.png)  
-[https://res.cloudinary.com/demo/image/upload/c_lfill,h_150,w_150/face_top.jpg](https://res.cloudinary.com/demo/image/upload/c_lfill,h_150,w_150/face_top.jpg)
 
 
 ## Optimization and Performance
+
+Using Auto Quality and Auto Format
 
 ## Positioning
 
