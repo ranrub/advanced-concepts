@@ -1,4 +1,4 @@
-# Transformation Visual Cheat Sheet
+# Image Transformation Visual Cheat Sheet
 
 
 
