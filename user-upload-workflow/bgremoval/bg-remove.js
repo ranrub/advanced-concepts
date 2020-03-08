@@ -9,7 +9,7 @@ cloudinary.uploader
       public_id: 'wine-bottle-5',
       background_removal: 'cloudinary_ai',
       notification_url:
-        'https://webhook.site/5e96159b-630d-4fbe-91ed-d3f2807aedca'
+        'https://webhook.site/c49e5d9e-15dd-43c0-b3c1-9e744d92cdbe'
     }
   )
   .then(uploadResult => {
