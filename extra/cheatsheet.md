@@ -218,6 +218,5 @@ Text Transformation
 |   |  0_75 | opacity 75 with 100 being fully opaque (least transparent)  |  
 
 
-
-
 ## Effects
+
