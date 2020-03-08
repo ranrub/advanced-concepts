@@ -186,8 +186,38 @@ https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w
 
 
 
-## Overlay Text
+## Overlays
 
-## Overlay Images
+### Text and Image over Video
+Click image to view video
+
+<a href="https://res.cloudinary.com/demo/video/upload/w_400,c_fill,ar_4:3,q_auto,f_auto/l_cloudinary_icon,g_south_east,y_25,x_5,o_50,w_100//l_text:Times_20:@cloudinary,g_north_east,y_10,x_10,co_rgb:0071BA,o_75/cld_rubiks_guy.mp4" target="_blank"><img src="https://res.cloudinary.com/demo/video/upload/w_400,c_fill,ar_4:3,q_auto,f_auto/l_cloudinary_icon,g_south_east,y_25,x_5,o_50,w_100//l_text:Times_20:@cloudinary,g_north_east,y_10,x_10,co_rgb:0071BA,o_75/cld_rubiks_guy" 
+alt="IMAGE ALT TEXT HERE" width="400" height="300" border="10" /></a>
+
+Full URL to video:  
+
+[https://res.cloudinary.com/demo/video/upload/w_400,c_fill,ar_4:3,q_auto,f_auto/l_cloudinary_icon,g_south_east,y_25,x_5,o_50,w_100/l_text:Times_20:@cloudinary,g_north_east,y_10,x_10,co_rgb:0071BA,o_75/cld_rubiks_guy.mp4](https://res.cloudinary.com/demo/video/upload/w_400,c_fill,ar_4:3,q_auto,f_auto/l_cloudinary_icon,g_south_east,y_25,x_5,o_50,w_100/l_text:Times_20:@cloudinary,g_north_east,y_10,x_10,co_rgb:0071BA,o_75/cld_rubiks_guy.mp4)
+
+URL to base video:  
+
+[https://res.cloudinary.com/demo/video/upload/cld_rubiks_guy.mp4](https://res.cloudinary.com/demo/video/upload/cld_rubiks_guy.mp4)
+
+URL to Cloudinary Icon:  
+
+[https://res.cloudinary.com/demo/image/upload/v1426538492/cloudinary_icon.png](https://res.cloudinary.com/demo/image/upload/v1426538492/cloudinary_icon.png)
+
+
+Text Transformation
+|   | Transformation  | Description  |
+|---|---|---|
+|   |  l_text:Times_20:@cloudinary |  Overlay text using font family Times with font size 20 and text content '@cloudinary'  |
+|   |  g_north_east |position orientation north east (upper right) corner   | 
+|   |  y_10 | position offset 10 down from the top   |
+|   |  x_10 | position offset 10 to the left of the right side | 
+|   |  co_rgb:0071BA| color RGB hex blue branding color  | 
+|   |  0_75 | opacity 75 with 100 being fully opaque (least transparent)  |  
+
+
+
 
 ## Effects
