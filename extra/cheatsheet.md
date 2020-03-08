@@ -131,6 +131,7 @@ Using Auto Quality and Auto Format
 
 ## Positioning
 
+### Direction
 
 | West   |      Center      |  East |
 |----------|:-------------:|------:|
@@ -164,6 +165,25 @@ https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w
 
 **NW**
 https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20NW%20,co_black,g_north_west,b_red/1px.png
+
+### Direction offset x 10, y 10
+
+|    |            |   |
+|----------|:-------------:|------:|
+| ![north west](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_west%20,co_black,g_north_west,x_10,y_10,b_red/1px.png)|  ![north](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north%20,co_black,g_north,x_10,y_10,b_red/1px.png) | ![north east](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_east%20,co_black,g_north_east,x_10,y_10,b_red/1px.png) |
+| ![west](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,x_10,y_10,b_red/1px.png)|    ![center](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red,x_10,y_10/1px.png)   |   ![east](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,x_10,y_10,b_red/1px.png) |
+| ![south west](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,x_10,y_10,b_red/1px.png)| ![south](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,x_10,y_10,b_red/1px.png) |  ![south east](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,x_10,y_10,b_red/1px.png) |
+
+### Direction offset x -10, y -10
+
+|    |            |   |
+|----------|:-------------:|------:|
+| ![north west](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_west%20,co_black,g_north_west,x_-10,y_-10,b_red/1px.png)|  ![north](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north%20,co_black,g_north,x_-10,y_-10,b_red/1px.png) | ![north east](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_east%20,co_black,g_north_east,x_-10,y_-10,b_red/1px.png) |
+| ![west](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,x_-10,y_-10,b_red/1px.png)|    ![center](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red,x_-10,y_-10/1px.png)   |   ![east](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,x_-10,y_-10,b_red/1px.png) |
+| ![south west](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,x_-10,y_-10,b_red/1px.png)| ![south](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,x_-10,y_-10,b_red/1px.png) |  ![south east](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,x_-10,y_-10,b_red/1px.png) |
+
+
+
 
 
 ## Overlay Text
