@@ -59,5 +59,8 @@ You'll need to change `cloud name` in these files:
 * video-player/vuejs/src/main.js
 * video-player/vuejs/srce/views/VideoTag.vue
 
+### Formatting JavaScript  
+This repo uses prettier for formatting.  If you're using Visual Studio Code you can add the prettier extension.  You can also rename the `.prettierrc.suggest` to the hidden file `.prettier` to use the rules followed in formatting the code in this repo.
+
 
 
