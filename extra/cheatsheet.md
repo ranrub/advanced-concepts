@@ -1,11 +1,32 @@
 # Image Transformation Visual Cheat Sheet
 
 
-![Original Image 1000 x 1500 ar 2:3](https://res.cloudinary.com/cloudinary-training/image/upload/woman-standing.jpg)
+
+## Original Image 1000 x 1500 ar 2:3
+<img src="https://res.cloudinary.com/cloudinary-training/image/upload/woman-standing.jpg" alt="original 1000x1500" width="200">
 
 
 
 [https://res.cloudinary.com/cloudinary-training/image/upload/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/woman-standing.jpg)
+
+## Summary of Cropping Modes
+
+| mode     | will crop | ar maintained | may add padding | can use g_auto | must use g_auto | modify if larger | modify if smaller |may skew           |
+|----------|-----------|---------------|-----------------|----------------|-----------------|------------------|-------------------|-------------------|
+| crop     | x         | x             |                 | x              |                 |                  |                   |                   |
+| fill     | x         |               |                 | x              |                 | x                |                   |                   |
+| fill_pad |           |               |                 | x              | x               |                  |                   |                   |
+| fit      |           | x             |                 |                |                 |                  |                   |                   |
+| lfill    | x         |               |                 |                |                 | x                |                   |                   |
+| limit    |           | x             |                 |                |                 | x                |                   |                   |
+| lpad     |           |               | x               |                |                 | x                |                   |                   |
+| mfit     |           | x             |                 |                |                 |                  | x                 |                   |
+| mpad     |           |               | x               |                |                 |                  | x                 |                   |
+| pad      |           | x             | x               |                |                 |                  |                   |                   |
+| scale    |           |               |                 |                |                 |                  |                   |                   |
+| mpad     |           |               |                 |                |                 |                  |                   |                   |
+| scale    |           |               |                 |                |                 |                  |                   | x                 |
+| thumb    |           | x             |                 | x              |                 |                  |                   |                   |
 
 ## Cropping with transformations that allow Gravity Auto 
 
@@ -23,21 +44,21 @@ Transforming from AR 2:3 to AR 1:1
 
 c_crop 150 x 150
 
-![Crop 150 x 150](images/cs-crop-150-150.png)  
+![Crop 150 x 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/woman-standing.jpg)  
 [https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/woman-standing.jpg)
 
 #### crop with gravity auto  
 
 c_crop 150 x 150 g_auto 
 
-![Crop 150 x 150 with g_auto](images/cs-crop-g-auto-150-150.png)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/woman-standing.jpg)
+![Crop 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/woman-standing.jpg)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/woman-standing.jpg)
 
 #### thumb
 
 c_thumb 150 x 150 
 
-![Thumb 150 x 150 with g_auto](images/cs-thumb-150-150.png)  
+![Thumb 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/woman-standing.jpg)  
 [https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/woman-standing.jpg)
 
 
@@ -45,22 +66,22 @@ c_thumb 150 x 150
 
 c_thumb 150 x 150 g_auto
 
-![Thumb 150 x 150 with g_auto](images/cs-thumb-g-auto-150-150.png)  
+![Thumb 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/woman-standing.jpg)  
 [https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/woman-standing.jpg)
 
 #### fill
 
 c_fill 150 x 150
 
-![Fill 150 x 150 with g_auto](images/cs-fill-150-150.png)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150,g_auto/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150,g_auto/woman-standing.jpg)
+![Fill 150 x 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/woman-standing.jpg)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/woman-standing.jpg)
 
 
 #### fill with gravity auto
 
 c_fill 150 x 150 g_auto
 
-![Fill 150 x 150 with g_auto](images/cs-fill-g-auto-150-150.png)  
+![Fill 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/woman-standing.jpg)  
 [https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/woman-standing.jpg)
 
 #### fill pad  
@@ -71,51 +92,38 @@ N/A
 
 c_fill_pad 150 x 150 g_auto
 
-![Fill 150 x 150 with g_auto](images/cs-fill-pad-g-auto-150-150.png)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150/woman-standing.jpg)
+![Fill 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150,b_green/woman-standing.jpg)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150,b_green/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150,b_green/woman-standing.jpg)
 
 ## Cropping with transformations that DO NOT allow Gravity Auto  
 
-### Crop to Height 150 except limit pad 150 x 150
+### Crop 150 x 150
 
-|   |  scale | limit  | fit   | limit fill   | limit pad ar 1:1|
-|---|---|---|---|---|---|
-||![https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150/woman-standing.jpg) |![https://res.cloudinary.com/cloudinary-training/image/upload/c_limit,h_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_limit,h_150/woman-standing.jpg) |![https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150/woman-standing.jpg) | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_lfill,h_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_lfill,h_150/woman-standing.jpg)|![https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg) |
+|   |  scale |  fit   |  limit pad ar 1:1|
+|---|---|---|---|
+||![https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/woman-standing.jpg) |![https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/woman-standing.jpg) |![https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg) |
 
 #### scale
 
 c_scale height 150
 
-![Scale height 150](images/cs-scale-h-150.png)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150/woman-standing.jpg)
-
-#### limit
-
-c_limit height 150
-
-![Limit height 150](images/cs-limit-h-150.png)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_limit,h_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_limit,h_150/woman-standing.jpg)
+![Scale width height 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/woman-standing.jpg)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/woman-standing.jpg)
 
 
 #### fit
 
 c_fit height 150
 
-![Fit height 150](images/cs-fit-h-150.png)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150/woman-standing.jpg)
+![Fit width height 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/woman-standing.jpg)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/woman-standing.jpg)
 
-### limit fill
-
-c_lfill height 150 
-
-![Limit Padd 150](images/cs-limit-fill-150.png)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_lfill,h_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_lfill,h_150/woman-standing.jpg)
 
 #### limit pad green background 150 x 150
 
 c_lpad height 150 width 150 green background
 
-![Limit Padd 150 x 150](images/cs-limit-pad-green-150-150.png)  
+![Limit Pad  150 x 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg)  
 [https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg)
 
 
