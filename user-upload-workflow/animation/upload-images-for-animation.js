@@ -11,7 +11,7 @@ const assets = [
 for (const asset of assets) {
   cloudinary.uploader
     .upload(asset, {
-      upload_preset: 'sea_preset'
+      upload_preset: 'sea-life-preset'
     })
     .then(uploadResult => console.log(uploadResult))
     .catch(error => console.error(error))
