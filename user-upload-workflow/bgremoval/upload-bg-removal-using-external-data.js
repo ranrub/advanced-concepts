@@ -14,18 +14,19 @@ const data = {
 
 cloudinary.uploader
   .upload(data.image, {
-    type: 'private',
+    // type: 'private',
     public_id: data.imageId,
     context: `description=${data.description} ${
-      data.sale ? ' on sale' : ''
+      data.sale ? 'on sale' : ''
     } | sku=${data.sku} | alt=${data.description}`,
     tags: data.category,
     background_removal: 'cloudinary_ai',
     notification_url:
       'https://webhook.site/c49e5d9e-15dd-43c0-b3c1-9e744d92cdbe',
-    eager: [{ height: 200, width: 200, crop: 'thumb' }]
+    transformation: [{ height: 200, width: 200, crop: 'thumb' }]
   })
   .then(uploadResult => {
-    console.log(uploadResult)
+    console.log(JSON.stringify(uploadResult, null, 2))
+    // console.log(cloudinary.image(uploadResult.public_id,))
   })
   .catch(error => console.error(error))
