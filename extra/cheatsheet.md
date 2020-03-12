@@ -224,7 +224,7 @@ Text Transformation
 
 ## Effects
 
-|   | grayscale | replace color   | outline  | sharpen|
-|---|---|---|---|---|
-|   |![grayscale](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150,e_grayscale/woman-standing.jpg)|![replace color](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150,e_replace_color:yellow:10:814d2c/woman-standing.jpg)   |![outline](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/e_outline:15:200,co_yellow/woman-standing.jpg)    |![sharpen](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/e_sharpen/woman-standing.jpg)    |
+|   | grayscale | replace color   | outline  | sharpen| loop|
+|---|---|---|---|---|---|
+|   |![grayscale](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150,e_grayscale/woman-standing.jpg)|![replace color](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150,e_replace_color:yellow:10:814d2c/woman-standing.jpg)   |![outline](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/e_outline:15:200,co_yellow/woman-standing.jpg)    |![sharpen](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/e_sharpen/woman-standing.jpg) | ![loop]()   |
 
