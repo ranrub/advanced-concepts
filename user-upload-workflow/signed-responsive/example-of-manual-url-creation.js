@@ -25,6 +25,7 @@ url = cloudinary.url('zgsv1hmttc7kwiztp0gt', {
 })
 console.log(url)
 
+// this is a sample of setting up a url for repsonsive images manually
 url = cloudinary.url('zgsv1hmttc7kwiztp0gt', {
   sign_url: true,
   transformation: [
