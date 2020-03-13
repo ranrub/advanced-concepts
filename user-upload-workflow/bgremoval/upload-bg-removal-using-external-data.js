@@ -14,7 +14,6 @@ const data = {
 
 cloudinary.uploader
   .upload(data.image, {
-    // type: 'private',
     public_id: data.imageId,
     context: `description=${data.description} ${
       data.sale ? 'on sale' : ''
@@ -27,6 +26,5 @@ cloudinary.uploader
   })
   .then(uploadResult => {
     console.log(JSON.stringify(uploadResult, null, 2))
-    // console.log(cloudinary.image(uploadResult.public_id,))
   })
   .catch(error => console.error(error))
