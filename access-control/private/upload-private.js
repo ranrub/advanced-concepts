@@ -10,7 +10,6 @@ cloudinary.uploader.upload(`${process.env.ASSET_SOURCE_BASE}/assets/images/goldf
 })
   .then(uploadResult => {
     console.log(uploadResult)
-    console.log('Generated URL:', cloudinary.url(`${uploadResult.public_id}`, { secure: true }))
   })
   .catch(error => console.error(error))
 

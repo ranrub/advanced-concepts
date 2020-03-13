@@ -11,7 +11,7 @@ const url = cloudinary.url('goldfish', {
   height: 300,
   quality: 'auto',
   fetch_format: 'auto',
-  crop: 'mfit'
+  crop: 'limit'
 })
 console.log(url)
 open(url)
