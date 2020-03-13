@@ -4,12 +4,10 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
 cloudinary.uploader
-  .upload(
-    'https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    {
-      quality_analysis: true
-    }
-  )
+  .upload('./assets/images/blurry-image.jpg', {
+    public_id: 'blurry-image',
+    quality_analysis: true
+  })
   .then(uploadResult => {
     console.log(uploadResult)
     if (uploadResult.quality_analysis.focus < 0.7) {
