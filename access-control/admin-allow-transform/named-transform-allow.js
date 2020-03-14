@@ -68,6 +68,7 @@ async function main (name) {
       await createNamedTransformation(name, {
         width: 400,
         height: 400,
+        crop: 'limit',
         quality: 'auto',
         allowed_for_strict: true
       })
