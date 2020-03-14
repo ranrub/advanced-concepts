@@ -12,7 +12,7 @@ cloudinary.uploader.explicit('killer-whale',
       width: 300,
       height: 300,
       quality: 'auto',
-      crop: 'mfit',
+      crop: 'limit',
       invalidate: true
     }]
   })
