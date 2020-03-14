@@ -6,15 +6,16 @@ const open = require('open')
 
 // use upload API to upload a public asset
 
-cloudinary.uploader.upload(`${process.env.ASSET_SOURCE_BASE}/assets/images/jellyfish.jpg`, {
-  public_id: 'jellyfish',
-  type: 'upload',
-  overwrite: true
-})
+cloudinary.uploader
+  .upload(`${process.env.ASSET_SOURCE_BASE}/assets/images/jellyfish.jpg`, {
+    public_id: 'jellyfish',
+    type: 'upload',
+    overwrite: true
+  })
   .then(uploadResult => {
     console.log(uploadResult)
     console.log('secure url', uploadResult.secure_url)
-    // Consider 3 cases:
+    // Consider 4 cases:
     // 1. no transformation and no auth error
     open(uploadResult.secure_url)
 
@@ -31,6 +32,12 @@ cloudinary.uploader.upload(`${process.env.ASSET_SOURCE_BASE}/assets/images/jelly
     url = cloudinary.url(`${uploadResult.public_id}`, {})
     console.log('cloudinary url:', url)
     // 3. no transformation
+    open(url)
+
+    // 4. transformation
+    url = cloudinary.url(`${uploadResult.public_id}`, { angle: 0 })
+    console.log('cloudinary url:', url)
+    // expect fail 'resource not found'
     open(url)
   })
   .catch(error => console.error(error))

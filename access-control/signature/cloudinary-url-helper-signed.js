@@ -11,11 +11,9 @@ const open = require('open')
 const url = cloudinary.url('dolphin', {
   type: 'authenticated',
   secure: true,
-  width: 400,
-  height: 400,
-  fetch_format: 'auto',
-  quality: 'auto',
-  crop: 'mfit',
+  width: 300,
+  height: 300,
+  crop: 'limit',
   sign_url: true
 })
 console.log('cloudinary helper:', url)
