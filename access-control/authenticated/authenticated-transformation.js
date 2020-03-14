@@ -9,7 +9,7 @@ const url = cloudinary.url('dolphin', {
   height: 300,
   quality: 'auto',
   fetch_format: 'auto',
-  crop: 'mfit',
+  crop: 'limit',
   sign_url: true
 })
 console.log(url)
