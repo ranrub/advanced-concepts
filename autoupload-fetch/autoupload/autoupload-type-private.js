@@ -11,5 +11,3 @@ const url = cloudinary.url('remote-media-secure/cherries.jpg',
   })
 console.log(url)
 open(url)
-
-// https://res.cloudinary.com/picturecloud7/image/private/s--j5G57Mm9--/v1/remote-media-secure/cherries.jpg
