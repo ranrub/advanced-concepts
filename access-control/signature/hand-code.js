@@ -1,8 +1,5 @@
 // docs: https://cloudinary.com/documentation/upload_images#update_already_uploaded_images
 // test public_id is dolphin which is authenticated
-
-require('dotenv').config()
-
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
