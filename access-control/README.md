@@ -12,6 +12,5 @@
 
 ## Running scripts
 ```
-cd ../
 node access-control/<dir>/<file>
 ```
