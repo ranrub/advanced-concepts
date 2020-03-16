@@ -2,7 +2,7 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 const open = require('open')
 
-const publicId = 'art-creative-graffiti'
+const publicId = 'mtrainier'
 const url = cloudinary.url(publicId, {
   transformation: [
     {
