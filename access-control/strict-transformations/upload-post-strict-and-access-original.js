@@ -7,7 +7,7 @@ const open = require('open')
 // use upload API to upload a public asset
 
 cloudinary.uploader
-  .upload(`${process.env.ASSET_SOURCE_BASE}/assets/images/jellyfish.jpg`, {
+  .upload('./assets/images/jellyfish.jpg', {
     public_id: 'jellyfish',
     type: 'upload',
     overwrite: true

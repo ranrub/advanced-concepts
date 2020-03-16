@@ -6,6 +6,7 @@ function destroyAsset(asset) {
   cloudinary.uploader
     .destroy(asset.public_id, {
       sign_url: true,
+      type: `${asset.type ? asset.type : 'upload'}`,
       resource_type: asset.resource_type
     })
     .then(result => {
@@ -27,13 +28,15 @@ function deletePublicIds(publicIds) {
 const assets = [
   { public_id: 'jellyfish', resource_type: 'image' },
   { public_id: 'koi', resource_type: 'image' },
-  { public_id: 'dolphin', resource_type: 'image' },
+  { public_id: 'dolphin', resource_type: 'image', type: 'authenticated' },
+  { public_id: 'goldfish', resource_type: 'image', type: 'private' },
   { public_id: 'killer-whale', resource_type: 'image' },
   { public_id: 'shark', resource_type: 'image' },
   { public_id: 'cc0', resource_type: 'image' },
   {
-    public_id: 'advanced-concepts%2Fassets%2Fimages%2Foranges.jpg',
-    resource_type: 'image'
+    public_id: 'https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg',
+    resource_type: 'image',
+    type: 'fetch'
   },
   { public_id: 'remote-media/images/pineapple', resource_type: 'image' },
   { public_id: 'remote-media/raw/data.json', resource_type: 'raw' },
@@ -44,17 +47,19 @@ const assets = [
 
 const fetchedAssets = [
   {
-    public_id: 'advanced-concepts/assets/images/oranges.jpg',
-    resource_type: 'image'
+    public_id: 'https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg',
+    resource_type: 'image',
+    type: 'fetch'
   }
 ]
 // const publicIds = assets.map(item => item.public_id)
 // console.log(publicIds)
 // deletePublicIds(publicIds)
 
-// for (const asset of assets) {
-//   destroyAsset(asset)
-// }
-for (const asset of fetchedAssets) {
+for (const asset of assets) {
   destroyAsset(asset)
 }
+// for (const asset of fetchedAssets) {
+//   destroyAsset(asset)
+// }
+// destroyAsset(fetchedAssets[0])

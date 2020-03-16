@@ -12,7 +12,7 @@ const addDays = days => {
 const enddate = addDays(7).toISOString()
 console.log('oneweekfromtoday', enddate)
 
-cloudinary.uploader.upload(`${process.env.ASSET_SOURCE_BASE}/assets/images/koi.jpg`, {
+cloudinary.uploader.upload('./assets/images/koi.jpg', {
   public_id: 'koi',
   type: 'upload',
   overwrite: true,

@@ -3,7 +3,7 @@ const cloudinary = require('cloudinary').v2
 
 // use upload API to upload a private asset
 
-cloudinary.uploader.upload(`${process.env.ASSET_SOURCE_BASE}/assets/images/dolphin.jpg`, {
+cloudinary.uploader.upload('./assets/images/dolphin.jpg', {
   public_id: 'dolphin',
   type: 'authenticated',
   invalidate: true
