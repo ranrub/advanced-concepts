@@ -2,8 +2,10 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
 function destroyAsset(asset) {
+  console.log('destory asset', asset)
   cloudinary.uploader
     .destroy(asset.public_id, {
+      sign_url: true,
       resource_type: asset.resource_type
     })
     .then(result => {
@@ -30,7 +32,7 @@ const assets = [
   { public_id: 'shark', resource_type: 'image' },
   { public_id: 'cc0', resource_type: 'image' },
   {
-    public_id: 'advanced-concepts/assets/images/oranges.jpg',
+    public_id: 'advanced-concepts%2Fassets%2Fimages%2Foranges.jpg',
     resource_type: 'image'
   },
   { public_id: 'remote-media/images/pineapple', resource_type: 'image' },
@@ -39,9 +41,20 @@ const assets = [
   { public_id: 'cremote-images/kiwi', resource_type: 'image' },
   { public_id: 'remote-media-secure/cherries', resource_type: 'image' }
 ]
-const publicIds = assets.map(item => item.public_id)
-console.log(publicIds)
-deletePublicIds(publicIds)
 
-// how to delete fetched item, private, authenticated item
-// how to delete directories
+const fetchedAssets = [
+  {
+    public_id: 'advanced-concepts/assets/images/oranges.jpg',
+    resource_type: 'image'
+  }
+]
+// const publicIds = assets.map(item => item.public_id)
+// console.log(publicIds)
+// deletePublicIds(publicIds)
+
+// for (const asset of assets) {
+//   destroyAsset(asset)
+// }
+for (const asset of fetchedAssets) {
+  destroyAsset(asset)
+}
