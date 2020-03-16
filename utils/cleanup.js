@@ -33,6 +33,10 @@ const assets = [
   { public_id: 'killer-whale', resource_type: 'image' },
   { public_id: 'shark', resource_type: 'image' },
   { public_id: 'cc0', resource_type: 'image' },
+  { public_id: 'special-fish', resource_type: 'image' },
+  { public_id: 'art-createive-graffiti', resource_type: 'image' },
+  { public_id: 'snowboard', resource_type: 'image' },
+  { public_id: 'modern-art', resource_type: 'image' },
   {
     public_id: 'https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg',
     resource_type: 'image',

@@ -2,7 +2,7 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 const open = require('open')
 
-cloudinary.uploader.upload(`${process.env.ASSET_SOURCE_BASE}/assets/images/killer-whale.jpg`, {
+cloudinary.uploader.upload('./assets/images/killer-whale.jpg', {
   public_id: 'killer-whale',
   type: 'upload',
   overwrite: true,
