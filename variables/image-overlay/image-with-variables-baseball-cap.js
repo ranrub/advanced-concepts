@@ -44,8 +44,8 @@ for (const width of range) {
         {
           effect: 'replace_color:$color:30:111111',
           dpr: '2.0',
-          fetch_format: 'auto',
-          quality: 'auto'
+          // fetch_format: 'auto',
+          // quality: 'auto'
         }
       ]
     })
