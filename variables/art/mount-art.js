@@ -2,7 +2,7 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 const open = require('open')
 
-function mountArt (publicId) {
+function mountArt(publicId) {
   const url = cloudinary.url(publicId, {
     transformation: [
       {
@@ -45,7 +45,7 @@ function mountArt (publicId) {
   open(url)
 }
 
-const art = ['art-creative-graffiti','modern-art','snowboard']
+const art = ['art-creative-graffiti', 'modern-art', 'snowboard']
 for (const publicId of art) {
   mountArt(publicId)
 }

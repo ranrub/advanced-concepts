@@ -2,7 +2,9 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 const open = require('open')
 
-const url = cloudinary.url('https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg',
-  { type: 'fetch' })
+const url = cloudinary.url(
+  'https://cloudinary-training.github.io/advanced-concepts/assets/images/strawberry.jpg',
+  { type: 'fetch' }
+)
 console.log(url)
 open(url)

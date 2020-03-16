@@ -1,8 +1,9 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
+console.log(cloudinary.config().cloud_name)
 const open = require('open')
 
-const url = cloudinary.url(`${process.env.ASSET_SOURCE_BASE}/assets/images/oranges.jpg`,
+const url = cloudinary.url('https://cloudinary-training.github.io/advanced-concepts/assets/images/strawberry.jpg',
   {
     type: 'fetch',
     width: 400,

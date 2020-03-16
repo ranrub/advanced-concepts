@@ -3,10 +3,13 @@ const cloudinary = require('cloudinary').v2
 
 function destroyAsset(asset) {
   console.log('destory asset', asset)
+  const type = `${asset.type ? asset.type : 'upload'}`
+  console.log('type', type)
   cloudinary.uploader
     .destroy(asset.public_id, {
-      sign_url: true,
-      type: `${asset.type ? asset.type : 'upload'}`,
+      invalidate: true,
+      
+      type: type,
       resource_type: asset.resource_type
     })
     .then(result => {
@@ -38,7 +41,14 @@ const assets = [
   { public_id: 'snowboard', resource_type: 'image' },
   { public_id: 'modern-art', resource_type: 'image' },
   {
-    public_id: 'https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg',
+    public_id:
+      'https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg',
+    resource_type: 'image',
+    type: 'fetch'
+  },
+  {
+    public_id:
+      'https://cloudinary-training.github.io/advanced-concepts/assets/images/strawberries.jpg',
     resource_type: 'image',
     type: 'fetch'
   },
@@ -51,7 +61,8 @@ const assets = [
 
 const fetchedAssets = [
   {
-    public_id: 'https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg',
+    public_id:
+      'https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg',
     resource_type: 'image',
     type: 'fetch'
   }

@@ -30,6 +30,9 @@ for (const width of range) {
             ['$color', `!${color}!`]
           ]
         },
+        {
+          effect: 'replace_color:$color:30:111111'
+        },
         { width: '$w', crop: 'scale' },
         {
           overlay: 'logo-big',
@@ -37,15 +40,12 @@ for (const width of range) {
           gravity: 'north',
           width: '$width * $logoscalar',
           x: '$width * $correctx',
-          y: '$width * 0.1',
-          fetch_format: 'auto',
-          quality: 'auto'
+          y: '$width * 0.1'
         },
         {
-          effect: 'replace_color:$color:30:111111',
           dpr: '2.0',
-          // fetch_format: 'auto',
-          // quality: 'auto'
+          fetch_format: 'auto',
+          quality: 'auto'
         }
       ]
     })

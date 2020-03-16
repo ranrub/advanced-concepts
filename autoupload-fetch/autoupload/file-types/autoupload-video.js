@@ -1,5 +1,11 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
+const open = require('open')
 
-console.log(cloudinary.url('remote-media/video/rooster.mp4',
-  { resource_type: 'video', secure: true }))
+const url = cloudinary.url('remote-media/video/rooster.mp4', {
+  resource_type: 'video',
+  secure: true
+})
+
+console.log(url)
+open(url)
