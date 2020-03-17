@@ -12,6 +12,7 @@ cloudinary.uploader.upload('./assets/video/rooster.mov', {
   .then(result => {
     console.log('rooster response')
     console.log(result)
+    console.log(cloudinary.video(result.public_id))
   })
   .catch(error => {
     console.log('rooster error')

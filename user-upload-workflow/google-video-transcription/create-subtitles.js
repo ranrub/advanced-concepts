@@ -7,7 +7,7 @@ cloudinary.uploader
     public_id: 'ul-video',
     raw_convert: 'google_speech:srt:vtt',
     notification_url:
-      'https://webhook.site/c49e5d9e-15dd-43c0-b3c1-9e744d92cdbe'
+      'https://webhook.site/17a3d46c-5d18-46b0-ab6c-94b12d7f645c'
   })
   .then(result => console.log(result))
   .catch(error => console.log(error))

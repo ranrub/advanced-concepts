@@ -5,9 +5,9 @@ cloudinary.uploader
   .upload('./assets/video/Joe-Biden-gana-en-Carolina-del-Sur-previo-al-supermartes.mp4', {
     resource_type: 'video',
     public_id: 'azure-translation-video',
-    raw_convert: 'azure_video_indexer:srt:vtt',
+    raw_convert: 'azure_video_indexer:srt:vtt:es-ES',
     notification_url:
-    'https://webhook.site/c49e5d9e-15dd-43c0-b3c1-9e744d92cdbe'
+    'https://webhook.site/17a3d46c-5d18-46b0-ab6c-94b12d7f645c'
   })
   .then(result => console.log(result))
   .catch(error => console.log(error))
