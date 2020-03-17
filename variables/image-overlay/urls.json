@@ -1,1 +1,22 @@
-[{"width":100,"url":"http://res.cloudinary.com/pictures77/image/upload/$w_100,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffc0cb!/dpr_2.0,e_replace_color:$color:30:111111,f_auto,q_auto/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/baseball-cap"},{"width":200,"url":"http://res.cloudinary.com/pictures77/image/upload/$w_200,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffc0cb!/dpr_2.0,e_replace_color:$color:30:111111,f_auto,q_auto/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/baseball-cap"},{"width":300,"url":"http://res.cloudinary.com/pictures77/image/upload/$w_300,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffc0cb!/dpr_2.0,e_replace_color:$color:30:111111,f_auto,q_auto/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/baseball-cap"},{"width":400,"url":"http://res.cloudinary.com/pictures77/image/upload/$w_400,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffc0cb!/dpr_2.0,e_replace_color:$color:30:111111,f_auto,q_auto/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/baseball-cap"},{"width":500,"url":"http://res.cloudinary.com/pictures77/image/upload/$w_500,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffc0cb!/dpr_2.0,e_replace_color:$color:30:111111,f_auto,q_auto/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/baseball-cap"}]
+[
+  {
+    "width": 100,
+    "url": "http://res.cloudinary.com/pictures77/image/upload/$w_100,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffc0cb!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap"
+  },
+  {
+    "width": 200,
+    "url": "http://res.cloudinary.com/pictures77/image/upload/$w_200,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffc0cb!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap"
+  },
+  {
+    "width": 300,
+    "url": "http://res.cloudinary.com/pictures77/image/upload/$w_300,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffc0cb!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap"
+  },
+  {
+    "width": 400,
+    "url": "http://res.cloudinary.com/pictures77/image/upload/$w_400,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffc0cb!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap"
+  },
+  {
+    "width": 500,
+    "url": "http://res.cloudinary.com/pictures77/image/upload/$w_500,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffc0cb!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap"
+  }
+]
