@@ -8,7 +8,6 @@ function destroyAsset(asset) {
   cloudinary.uploader
     .destroy(asset.public_id, {
       invalidate: true,
-      
       type: type,
       resource_type: asset.resource_type
     })
@@ -37,7 +36,7 @@ const assets = [
   { public_id: 'shark', resource_type: 'image' },
   { public_id: 'cc0', resource_type: 'image' },
   { public_id: 'special-fish', resource_type: 'image' },
-  { public_id: 'art-createive-graffiti', resource_type: 'image' },
+  { public_id: 'art-creative-graffiti', resource_type: 'image' },
   { public_id: 'snowboard', resource_type: 'image' },
   { public_id: 'modern-art', resource_type: 'image' },
   {
@@ -48,7 +47,7 @@ const assets = [
   },
   {
     public_id:
-      'https://cloudinary-training.github.io/advanced-concepts/assets/images/strawberries.jpg',
+      'https://cloudinary-training.github.io/advanced-concepts/assets/images/strawberry.jpg',
     resource_type: 'image',
     type: 'fetch'
   },
@@ -63,6 +62,12 @@ const fetchedAssets = [
   {
     public_id:
       'https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg',
+    resource_type: 'image',
+    type: 'fetch'
+  },
+  {
+    public_id:
+      'https://cloudinary-training.github.io/advanced-concepts/assets/images/strawberry.jpg',
     resource_type: 'image',
     type: 'fetch'
   }

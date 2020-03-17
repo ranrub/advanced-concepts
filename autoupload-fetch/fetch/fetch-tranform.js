@@ -11,7 +11,7 @@ const url = cloudinary.url('https://cloudinary-training.github.io/advanced-conce
     crop: 'limit',
     radius: '30',
     effect: 'sharpen',
-    fetch_format: 'auto'
+    quality: 'auto'
   }
 )
 console.log(url)
