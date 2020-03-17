@@ -10,6 +10,7 @@ cloudinary.uploader
   })
   .then(uploadResult => {
     console.log(uploadResult)
+    // try .8, .9
     if (uploadResult.quality_analysis.focus < 0.7) {
       cloudinary.uploader
         .explicit(uploadResult.public_id, {

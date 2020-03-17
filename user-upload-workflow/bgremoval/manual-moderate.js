@@ -9,16 +9,13 @@ function setUpModeration(publicId, description) {
     .explicit(publicId, {
       type: 'upload',
       moderation: 'manual',
-      angle: 0,
       notification_url:
-        'https://webhook.site/5e96159b-630d-4fbe-91ed-d3f2807aedca'
+        'https://webhook.site/17a3d46c-5d18-46b0-ab6c-94b12d7f645c'
     })
     .then(result => {
       console.log(JSON.stringify(result, null, 2))
       // create image tag with alt attribute to use once moderation is complete
-      console.log(
-        cloudinary.image(result.public_id, { alt: description, angle: 0 })
-      )
+      console.log(cloudinary.image(result.public_id, { alt: description }))
     })
     .catch(error => {
       console.log(error)
