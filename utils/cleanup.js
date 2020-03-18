@@ -51,7 +51,9 @@ const assets = [
     resource_type: 'image',
     type: 'fetch'
   },
+
   { public_id: 'remote-media/images/pineapple', resource_type: 'image' },
+  { public_id: 'remote-media/images/dolphin', resource_type: 'image' },
   { public_id: 'remote-media/raw/data.json', resource_type: 'raw' },
   { public_id: 'remote-media/video/rooster', resource_type: 'rooster' },
   { public_id: 'cremote-images/kiwi', resource_type: 'image' },
@@ -72,13 +74,19 @@ const fetchedAssets = [
     type: 'fetch'
   }
 ]
+//  const remote =
 // const publicIds = assets.map(item => item.public_id)
 // console.log(publicIds)
 // deletePublicIds(publicIds)
 
-for (const asset of assets) {
-  destroyAsset(asset)
+const remote = {
+  public_id: 'remote-media/images/goldfish',
+  resource_type: 'image'
 }
+destroyAsset(remote)
+// for (const asset of assets) {
+//   destroyAsset(asset)
+// }
 // for (const asset of fetchedAssets) {
 //   destroyAsset(asset)
 // }
