@@ -10,7 +10,8 @@ cloudinary.uploader
   .upload('./assets/images/jellyfish.jpg', {
     public_id: 'jellyfish',
     type: 'upload',
-    overwrite: true
+    overwrite: true,
+    invalidate: true
   })
   .then(uploadResult => {
     console.log(uploadResult)
@@ -31,7 +32,7 @@ cloudinary.uploader
     // no format - just public id
     url = cloudinary.url(`${uploadResult.public_id}`, {})
     console.log('cloudinary url:', url)
-    // 3. no transformation
+    // 3. ??? varies by flag
     open(url)
 
     // 4. transformation

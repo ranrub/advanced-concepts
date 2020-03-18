@@ -8,7 +8,7 @@ const addDays = days => {
   const currentDate = new Date()
   return new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() + days)
 }
-// set to expire after 1 day
+// set to expire after 7 days
 const enddate = addDays(7).toISOString()
 console.log('oneweekfromtoday', enddate)
 
