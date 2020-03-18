@@ -32,7 +32,7 @@ cloudinary.uploader
     // no format - just public id
     url = cloudinary.url(`${uploadResult.public_id}`, {})
     console.log('cloudinary url:', url)
-    // 3. ??? varies by flag
+    // 3. should not work 400
     open(url)
 
     // 4. transformation

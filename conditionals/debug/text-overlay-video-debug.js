@@ -15,7 +15,7 @@ const url = cloudinary.url('snowboarding', {
           overlay: {
             font_family: 'Arial',
             font_size: 45,
-            text: 'width lt 400'
+            text: 'width < 400'
           },
           width: 150,
           gravity: 'north_east',
@@ -27,12 +27,12 @@ const url = cloudinary.url('snowboarding', {
           overlay: {
             font_family: 'Arial',
             font_size: 45,
-            background: 'yellow',
-            radius: 10,
-            opacity: 99,
-            color: 'white',
-            text: 'width ge 400'
+            text: 'width >= 400'
           },
+          background: 'yellow',
+          color: 'black',
+          radius: 10,
+          opacity: 50,
           width: 150,
           gravity: 'north_east',
           x: 10,

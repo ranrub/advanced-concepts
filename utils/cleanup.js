@@ -80,7 +80,7 @@ const fetchedAssets = [
 // deletePublicIds(publicIds)
 
 const remote = {
-  public_id: 'remote-media/images/goldfish',
+  public_id: 'remote-media/images/pineapple',
   resource_type: 'image'
 }
 destroyAsset(remote)
