@@ -23,15 +23,13 @@ const open = require('open')
 const url = cloudinary.url('lion-head', {
   transformation: [
     {
-      quality: 'auto',
-      fetch_format: 'auto'
-    },
-    {
       border: '3px_solid_white',
       crop: 'fill',
       width: 300,
       height: 300,
-      gravity: 'face',
+      gravity: 'center'
+    },
+    {
       quality: 'auto',
       fetch_format: 'auto'
     }

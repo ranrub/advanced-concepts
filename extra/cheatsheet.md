@@ -178,7 +178,7 @@ https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w
 | ![west](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,x_10,y_10,b_red/1px.png)|    ![center](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red,x_10,y_10/1px.png)   |   ![east](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,x_10,y_10,b_red/1px.png) |
 | ![south west](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,x_10,y_10,b_red/1px.png)| ![south](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,x_10,y_10,b_red/1px.png) |  ![south east](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,x_10,y_10,b_red/1px.png) |
 
-### Direction offset x -10, y -10
+### Direction offset x -100, y -100
 
 |    |            |   |
 |----------|:-------------:|------:|

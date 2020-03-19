@@ -6,13 +6,11 @@ const open = require('open')
 const url = cloudinary.url('lion-head', {
   transformation: [
     {
-      quality: 'auto',
-      fetch_format: 'auto',
       border: '3px_solid_white',
       crop: 'fill',
       width: 300,
       height: 300,
-      gravity: 'face'
+      gravity: 'center'
     },
     {
       overlay: {
@@ -44,6 +42,10 @@ const url = cloudinary.url('lion-head', {
       gravity: 'south',
       x: 150,
       y: 10
+    },
+    {
+      quality: 'auto',
+      fetch_format: 'auto'
     }
   ]
 })

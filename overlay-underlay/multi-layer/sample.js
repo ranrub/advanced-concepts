@@ -18,7 +18,7 @@ const url = cloudinary.url('shell', {
       overlay: {
         font_family: 'Arial',
         font_size: 20,
-        text: ' Fibonacci '
+        text: '%20%20Fibonacci%20%20'
       },
       gravity: 'east',
       x: 25,
@@ -29,7 +29,7 @@ const url = cloudinary.url('shell', {
       overlay: {
         font_family: 'Arial',
         font_size: 20,
-        text: ' Explore '
+        text: '%20%20Explore%20%20'
       },
       gravity: 'west',
       x: 25,

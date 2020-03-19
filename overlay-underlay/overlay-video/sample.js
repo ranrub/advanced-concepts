@@ -18,7 +18,7 @@ const url = cloudinary.url('wave', {
       overlay: {
         font_family: 'Trade Winds',
         font_size: 30,
-        text: ' Catch a wave '
+        text: '%20%20Catch a wave%20%20'
       },
       gravity: 'north_west',
       x: 25,

@@ -20,7 +20,7 @@ const url = cloudinary.url('chalkboard', {
       overlay: {
         font_family: 'Trade Winds',
         font_size: 20,
-        text: ' Fibonacci '
+        text: '%20%20Fibonacci%20%20'
       },
       color: '#DC7633',
       background: '#222',

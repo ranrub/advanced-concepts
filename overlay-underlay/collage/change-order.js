@@ -1,16 +1,11 @@
-// bo_3px_solid_white,c_fill,l_bird-close-up,w_300,h_300,x_150,y_150
-// /l_text:Impact_60_stroke:TINDER,co_white,g_south,x_150,y_10/
-
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 const open = require('open')
 
-// add 4th text image and overlays
+// change the order
 const url = cloudinary.url('lion-head', {
   transformation: [
     {
-      quality: 'auto',
-      fetch_format: 'auto',
       border: '3px_solid_white',
       crop: 'fill',
       width: 300,
@@ -89,7 +84,8 @@ const url = cloudinary.url('lion-head', {
       gravity: 'south',
       x: -150,
       y: 10
-    }
+    },
+    { quality: 'auto', fetch_format: 'auto' }
   ]
 })
 

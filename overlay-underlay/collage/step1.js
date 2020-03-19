@@ -10,9 +10,7 @@ const url = cloudinary.url('lion-head', {
       crop: 'fill',
       width: 300,
       height: 300,
-      gravity: 'face',
-      quality: 'auto',
-      fetch_format: 'auto'
+      gravity: 'center'
     },
     {
       overlay: {
@@ -24,6 +22,10 @@ const url = cloudinary.url('lion-head', {
       color: 'white',
       gravity: 'south',
       y: 10
+    },
+    {
+      quality: 'auto',
+      fetch_format: 'auto'
     }
   ]
 })
