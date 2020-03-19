@@ -3,11 +3,11 @@
 
 
 ## Original Image 1000 x 1500 ar 2:3
-<img src="https://res.cloudinary.com/cloudinary-training/image/upload/woman-standing.jpg" alt="original 1000x1500" width="200">
+<img src="https://res.cloudinary.com/cloudinary-training/image/upload/images/woman-standing" alt="original 1000x1500" width="200">
 
 
 
-[https://res.cloudinary.com/cloudinary-training/image/upload/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/woman-standing.jpg)
+[https://res.cloudinary.com/cloudinary-training/image/upload/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/images/woman-standing)
 
 ## Summary of Cropping Modes
 
@@ -34,8 +34,8 @@ Transforming from AR 2:3 to AR 1:1
 
 |   |  crop | thumb  | fill   | fill pad   |
 |---|---|---|---|---|
-| without g_auto  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/woman-standing.jpg)  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/woman-standing.jpg)  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/woman-standing.jpg)  | N/A  |
-| with g_auto  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/woman-standing.jpg)  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/woman-standing.jpg)  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150,g_auto/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150,g_auto/woman-standing.jpg)  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150/woman-standing.jpg)  |
+| without g_auto  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/images/woman-standing)  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/images/woman-standing)  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/images/woman-standing)  | N/A  |
+| with g_auto  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/images/woman-standing)  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/images/woman-standing)  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150,g_auto/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150,g_auto/images/woman-standing)  | ![https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150/images/woman-standing)  |
 |   |   |   |   |   |
 
 ### Crop to Width 150 x Height 150 
@@ -44,45 +44,45 @@ Transforming from AR 2:3 to AR 1:1
 
 c_crop 150 x 150
 
-![Crop 150 x 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/woman-standing.jpg)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/woman-standing.jpg)
+![Crop 150 x 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/images/woman-standing)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150/images/woman-standing)
 
 #### crop with gravity auto  
 
 c_crop 150 x 150 g_auto 
 
-![Crop 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/woman-standing.jpg)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/woman-standing.jpg)
+![Crop 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/images/woman-standing)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_crop,h_150,w_150,g_auto/images/woman-standing)
 
 #### thumb
 
 c_thumb 150 x 150 
 
-![Thumb 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/woman-standing.jpg)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/woman-standing.jpg)
+![Thumb 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/images/woman-standing)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150/images/woman-standing)
 
 
 #### thumb with gravity auto
 
 c_thumb 150 x 150 g_auto
 
-![Thumb 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/woman-standing.jpg)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/woman-standing.jpg)
+![Thumb 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/images/woman-standing)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,h_150,w_150,g_auto/images/woman-standing)
 
 #### fill
 
 c_fill 150 x 150
 
-![Fill 150 x 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/woman-standing.jpg)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/woman-standing.jpg)
+![Fill 150 x 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/images/woman-standing)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,h_150,w_150/images/woman-standing)
 
 
 #### fill with gravity auto
 
 c_fill 150 x 150 g_auto
 
-![Fill 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/woman-standing.jpg)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/woman-standing.jpg)
+![Fill 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/images/woman-standing)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/images/woman-standing)
 
 #### fill pad  
 
@@ -92,8 +92,8 @@ N/A
 
 c_fill_pad 150 x 150 g_auto
 
-![Fill 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150,b_green/woman-standing.jpg)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150,b_green/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150,b_green/woman-standing.jpg)
+![Fill 150 x 150 with g_auto](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150,b_green/images/woman-standing)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150,b_green/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill_pad,g_auto,h_150,w_150,b_green/images/woman-standing)
 
 ## Cropping with transformations that DO NOT allow Gravity Auto  
 
@@ -101,30 +101,30 @@ c_fill_pad 150 x 150 g_auto
 
 |   |  scale |  fit   |  limit pad ar 1:1|
 |---|---|---|---|
-||![https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/woman-standing.jpg) |![https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/woman-standing.jpg) |![https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg) |
+||![https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/images/woman-standing) |![https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/images/woman-standing) |![https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/images/woman-standing) |
 
 #### scale
 
 c_scale height 150
 
-![Scale width height 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/woman-standing.jpg)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/woman-standing.jpg)
+![Scale width height 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/images/woman-standing)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,h_150,w_150/images/woman-standing)
 
 
 #### fit
 
 c_fit height 150
 
-![Fit width height 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/woman-standing.jpg)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/woman-standing.jpg)
+![Fit width height 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/images/woman-standing)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_fit,h_150,w_150/images/woman-standing)
 
 
 #### limit pad green background 150 x 150
 
 c_lpad height 150 width 150 green background
 
-![Limit Pad  150 x 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg)  
-[https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg](https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/woman-standing.jpg)
+![Limit Pad  150 x 150](https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/images/woman-standing)  
+[https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/images/woman-standing](https://res.cloudinary.com/cloudinary-training/image/upload/c_lpad,h_150,w_150,b_green/images/woman-standing)
 
 
 
@@ -178,7 +178,7 @@ https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w
 | ![west](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,x_10,y_10,b_red/1px.png)|    ![center](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red,x_10,y_10/1px.png)   |   ![east](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,x_10,y_10,b_red/1px.png) |
 | ![south west](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,x_10,y_10,b_red/1px.png)| ![south](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,x_10,y_10,b_red/1px.png) |  ![south east](https://res.cloudinary.com/pictures77/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,x_10,y_10,b_red/1px.png) |
 
-### Direction offset x -100, y -100
+### Direction offset x -10, y -10
 
 |    |            |   |
 |----------|:-------------:|------:|
@@ -226,5 +226,5 @@ Text Transformation
 
 |   | grayscale | replace color   | outline  | sharpen| loop|
 |---|---|---|---|---|---|
-|   |![grayscale](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150,e_grayscale/woman-standing.jpg)|![replace color](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150,e_replace_color:yellow:10:814d2c/woman-standing.jpg)   |![outline](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/e_outline:15:200,co_yellow/woman-standing.jpg)    |![sharpen](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/e_sharpen/woman-standing.jpg) | ![loop]()   |
+|   |![grayscale](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150,e_grayscale/images/woman-standing)|![replace color](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150,e_replace_color:yellow:10:814d2c/images/woman-standing)   |![outline](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/e_outline:15:200,co_yellow/images/woman-standing)    |![sharpen](https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_auto,h_150,w_150/e_sharpen/images/woman-standing) | ![loop]()   |
 

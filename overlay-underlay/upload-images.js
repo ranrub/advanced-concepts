@@ -22,3 +22,5 @@ function uploadImage (fn) {
 uploadImage('./assets/images/chalkboard.jpg')
 uploadImage('./assets/images/shell.jpg')
 uploadImage('./assets/images/gray-surface.jpg')
+uploadImage('./assets/images/mask.webp')
+uploadImage('./assets/images/woman-standing.jpg')
