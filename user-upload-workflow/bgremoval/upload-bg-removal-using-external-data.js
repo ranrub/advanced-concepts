@@ -1,5 +1,3 @@
-// asset is private w/strict transformations
-// or authenticated with signed URLs
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
