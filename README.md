@@ -16,8 +16,7 @@ This folder contains asset folders that can be served using github.io.  To turn 
 Your .env should look like this:
 
 ```
-CLOUDINARY_URL=cloudinary://API_KEY:API_SECRET@CLOUD_NAME  
-API_SECRET=<api secret>   
+CLOUDINARY_URL=cloudinary://API_KEY:API_SECRET@CLOUD_NAME   
 ASSET_SOURCE_BASE="https://<github account>.github.io/advanced-concepts" 
 ``` 
 

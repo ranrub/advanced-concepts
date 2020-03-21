@@ -1,7 +1,7 @@
 const cloudName = '<your cloud name>'
 const uploadPreset = '<your unsigned upload preset>'
 const apiKey = '<your api key>'
-const useremail = '<your user name email>'
+const userEmail = '<your username email>'
 
 document.addEventListener('DOMContentLoaded', function () {
   // console.log(window.cloudinary)
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
   window.ml = window.cloudinary.createMediaLibrary({
     cloud_name: cloudName,
     api_key: apiKey,
-    username: useremail,
+    username: userEmail,
     button_class: 'myBtn',
     button_caption: 'Select Image or Video'
   }, {
