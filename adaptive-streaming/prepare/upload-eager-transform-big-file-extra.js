@@ -14,7 +14,7 @@ const upOptions = {
   public_id: 'bacteria',
   invalidate: true
 }
-cloudinary.uploader.upload('assets/video/bacteria_friend_and_foe_512kb.mp4', upOptions)
+cloudinary.uploader.upload('https://res.cloudinary.com/cloudinary-training/video/upload/v1584917583/video-for-training/bacteria_friend_and_foe_512kb.mp4', upOptions)
   .then(result => {
     console.log(result)
   })
