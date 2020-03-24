@@ -8,7 +8,7 @@ const addDays = days => {
     .add(days, 'days')
     .toISOString()
 }
-// start this 30 seconds later
+// start this 45 seconds later
 const addSeconds = seconds => {
   console.log(new Date())
   return moment().add(seconds, 'seconds').toISOString()
