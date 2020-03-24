@@ -1,20 +1,17 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 const open = require('open')
-
-const today = new Date().toISOString()
+const moment = require('moment')
 
 const addDays = days => {
-  const currentDate = new Date()
-  return new Date(
-    currentDate.getFullYear(),
-    currentDate.getMonth(),
-    currentDate.getDate() + days
-  )
+  return moment()
+    .add(days, 'days')
+    .toISOString()
 }
+
 // set to expire after 1 day
-const startDate = addDays(1).toISOString()
-const endDate = addDays(8).toISOString()
+const startDate = addDays(1)
+const endDate = addDays(8)
 console.log('start date', startDate)
 console.log('end date', endDate)
 

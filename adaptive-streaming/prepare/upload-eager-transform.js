@@ -12,7 +12,7 @@ const upOptions =
   public_id: 'whale',
   invalidate: true
 }
-cloudinary.uploader.upload('assets/video/humpbackwhale_singing.webm.360p.vp9.webm', upOptions)
+cloudinary.uploader.upload('./assets/video/humpbackwhale_singing.webm.360p.vp9.webm', upOptions)
   .then(result => {
     console.log(result)
   })
