@@ -11,7 +11,8 @@ cloudinary.api
       width: 400,
       height: 400,
       gravity: 'auto',
-      crop: 'fill_pad'
+      crop: 'fill_pad',
+      quality: 'auto'
     },
     tags: 'sea-life',
     allowed_formats: 'jpg'
