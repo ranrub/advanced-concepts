@@ -14,7 +14,8 @@
 <h2>Recommendations</h2>
 
 <div style="max-width: 400px">
-  <video id="example-player" controls autoplay muted class="cld-video-player cld-fluid cld-video-player-skin-dark"></video>
+  <video id="example-player" controls autoplay muted
+    class="cld-video-player cld-fluid cld-video-player-skin-dark"></video>
 </div>
 
 
@@ -34,7 +35,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     const source1 = {
       publicId: 'downhill',
-      transformation:{
+      transformation: {
         crop: "fill",
         width: 300,
         gravity: "auto",
@@ -47,22 +48,22 @@
       }
     };
     const source2 = {
-      publicId: 'close-up-stop',
-      transformation:{
+      publicId: 'ski-lift',
+      transformation: {
         crop: "fill",
         width: 300,
         gravity: "auto",
         aspect_ratio: "1:1"
       },
       info: {
-        title: 'Close up stop',
-        subtitle: 'Stopping',
-        description: 'Snow'
-      }
+        title: 'Ski Lift',
+        subtitle: 'top of the lift',
+        description: 'Waiting for Friends'
+      },
     };
     const source3 = {
       publicId: 'hike-up',
-      transformation:{
+      transformation: {
         crop: "fill",
         width: 300,
         gravity: "auto",
@@ -76,7 +77,7 @@
     };
     const source4 = {
       publicId: 'snowboarding',
-      transformation:{
+      transformation: {
         crop: "fill",
         width: 300,
         gravity: "auto",
@@ -101,7 +102,7 @@
     const player = cld.videoPlayer('example-player', {
       autoShowRecommendations: true,
       showLogo: true,
-      logoImageUrl:"https://res.cloudinary.com/demo/image/upload/sample",
+      logoImageUrl: "https://res.cloudinary.com/demo/image/upload/sample",
       colors: { "base": "blue", "accent": "red", "text": "lightgreen" }
     });
 

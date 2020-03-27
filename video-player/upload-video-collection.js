@@ -16,7 +16,7 @@ async function uploadVideoFile (filename) {
         crop: 'fill',
         width: 300,
         gravity: 'auto',
-        aspect_ratio: '1:1'
+        aspect_ratio: '1:1',
       }
     })
     console.log('uploaded', result.public_id)
@@ -26,7 +26,7 @@ async function uploadVideoFile (filename) {
   }
 }
 
-const files = ['./assets/video/close-up-stop.mp4',
+const files = ['./assets/video/ski-lift.mp4',
   './assets/video/downhill.mp4',
   './assets/video/hike-up.mp4',
   './assets/video/snowboarding.mp4']
