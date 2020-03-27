@@ -14,7 +14,7 @@ export default {
     /*global cloudinary*/
     /*eslint no-undef: 'error'*/
     var cld = cloudinary.Cloudinary.new({
-      cloud_name: 'picturecloud7'
+      cloud_name: 'pictures77'
     });
     const demoplayer = cld.videoPlayer('demo-player', {
       autoplay: false,

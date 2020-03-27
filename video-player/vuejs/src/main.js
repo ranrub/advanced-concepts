@@ -6,7 +6,7 @@ import Cloudinary from 'cloudinary-vue'
 Vue.use(
   Cloudinary, {
   configuration: {
-    cloudName: 'picturecloud7'
+    cloudName: 'pictures77'
   }
 })
 Vue.config.productionTip = false
