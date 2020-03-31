@@ -19,7 +19,7 @@ cloudinary.uploader
     tags: data.category,
     background_removal: 'cloudinary_ai',
     notification_url:
-      'https://webhook.site/17a3d46c-5d18-46b0-ab6c-94b12d7f645c',
+      'https://webhook.site/5e96159b-630d-4fbe-91ed-d3f2807aedca',
     transformation: [{ height: 200, width: 200, crop: 'thumb' }]
   })
   .then(uploadResult => {

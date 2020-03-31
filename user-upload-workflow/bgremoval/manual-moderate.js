@@ -12,8 +12,6 @@ function setUpModeration(publicId, description) {
     })
     .then(result => {
       console.log(JSON.stringify(result, null, 2))
-      // create image tag with alt attribute to use once moderation is complete
-      console.log(cloudinary.image(result.public_id, { alt: description }))
     })
     .catch(error => {
       console.log(error)
