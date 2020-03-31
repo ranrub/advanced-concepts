@@ -3,7 +3,6 @@ const cloudinary = require('cloudinary').v2
 const open = require('open')
 
 const url = cloudinary.url('tiger-lilly', {
-  sign_url: true,
   transformation: [
     {
       custom_function: {
