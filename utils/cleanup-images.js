@@ -2,7 +2,7 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
 function destroyAsset(asset) {
-  console.log('destory asset', asset)
+  console.log('destroy asset', asset.public_id)
   const type = `${asset.type ? asset.type : 'upload'}`
   console.log('type', type)
   cloudinary.uploader
