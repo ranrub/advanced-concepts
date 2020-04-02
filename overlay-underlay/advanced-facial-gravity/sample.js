@@ -4,8 +4,9 @@ const open = require('open')
 
 const url = cloudinary.url('woman-standing', {
   crop: 'fill',
-  flags: 'region_relative',
-  gravity: 'adv_face',
+  // flags: 'region_relative',
+  // gravity: 'adv_face',
+  gravity: 'face',
   y: 30,
   overlay: 'mask-green',
   width: '1.3',

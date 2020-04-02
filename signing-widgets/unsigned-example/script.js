@@ -3,6 +3,9 @@ const uploadPreset = '<your unsigned upload preset>'
 const apiKey = '<your api key>'
 const userEmail = '<your username email>'
 
+
+// document.addEventListener(async () => {
+
 document.addEventListener('DOMContentLoaded', function () {
   // console.log(window.cloudinary)
   /* Product Gallery */

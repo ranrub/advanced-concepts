@@ -27,6 +27,7 @@ const url = cloudinary.url('lion-head', {
       overlay: 'big-glasses',
       border: '3px_solid_white',
       crop: 'fill',
+      gravity: 'center',
       width: 300,
       height: 300,
       x: 300

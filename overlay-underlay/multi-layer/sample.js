@@ -13,12 +13,12 @@ const url = cloudinary.url('shell', {
       },
       width: 450
     },
-    // Fibonnci text is over shell
+    // Fibonacci text is over shell
     {
       overlay: {
         font_family: 'Arial',
         font_size: 20,
-        text: '%20%20Fibonacci%20%20'
+        text: '  Fibonacci  '
       },
       gravity: 'east',
       x: 25,
@@ -29,7 +29,7 @@ const url = cloudinary.url('shell', {
       overlay: {
         font_family: 'Arial',
         font_size: 20,
-        text: '%20%20Explore%20%20'
+        text: '  Explore  '
       },
       gravity: 'west',
       x: 25,
