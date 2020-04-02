@@ -7,7 +7,7 @@ const uploadImage = async filename => {
   console.log(filename)
   try {
     const response = await cloudinary.uploader.upload(filename, {
-      upload_preset: 'photo-share'
+      upload_preset: 'photo-share1'
     })
     await console.log(`uploaded: ${response.public_id}`)
     return response.public_id

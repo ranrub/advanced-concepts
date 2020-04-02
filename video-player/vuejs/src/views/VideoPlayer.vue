@@ -11,11 +11,12 @@ export default {
   // components: {},
   mounted: function() {
     console.log('mounted');
-    /*global cloudinary*/
+    /*global cloudinary - cloudinary JS SDK*/
     /*eslint no-undef: 'error'*/
     var cld = cloudinary.Cloudinary.new({
       cloud_name: 'pictures77'
     });
+    // video play object
     const demoplayer = cld.videoPlayer('demo-player', {
       autoplay: false,
       muted: true,

@@ -8,6 +8,7 @@ cloudinary.api
     unsigned: false,
     tags: 'photo-share',
     folder: 'photo-share',
+    async: false,
     transformation: [
       {
         crop: 'fit',
