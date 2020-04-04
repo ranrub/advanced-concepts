@@ -3,7 +3,7 @@ const cloudinary = require('cloudinary').v2
 
 const open = require('open')
 
-const url = cloudinary.url('sample.jpg', {
+const url = cloudinary.url('shell', {
   sign_url: true,
   custom_function: {
     function_type: 'remote',
@@ -12,7 +12,5 @@ const url = cloudinary.url('sample.jpg', {
 })
 console.log(url)
 open(url)
-// https://admiring-jennings-33c451.netlify.com/.netlify/functions/hello-cl
-// https://5e7e96e396a08b000760711d--admiring-jennings-33c451.netlify.com/.netlify/functions/cl_hello
 
-// http://res.cloudinary.com/pictures77/image/upload/s--aUbxjjbN--/fn_remote:aHR0cHM6Ly81ZTdlOTZlMzk2YTA4YjAwMDc2MDcxMWQtLWFkbWlyaW5nLWplbm5pbmdzLTMzYzQ1MS5uZXRsaWZ5LmNvbS8ubmV0bGlmeS9mdW5jdGlvbnMvY2xfaGVsbG8=/sample.jpg
+// https://res.cloudinary.com/pictures77/image/upload/s--PMUhGYJY--/fn_remote:aHR0cHM6Ly9zZWN1cmUtY2F2ZXJucy05MDI2NS5oZXJva3VhcHAuY29tL2FwaS9maWxl/shell
