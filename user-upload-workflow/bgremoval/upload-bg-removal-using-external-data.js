@@ -23,6 +23,6 @@ cloudinary.uploader
     transformation: [{ height: 200, width: 200, crop: 'thumb' }]
   })
   .then(uploadResult => {
-    console.log(JSON.stringify(uploadResult, null, 2))
+    console.log(JSON.stringify(uploadResult, null, 1))
   })
   .catch(error => console.error(error))

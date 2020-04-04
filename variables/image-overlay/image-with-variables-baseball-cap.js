@@ -54,7 +54,10 @@ for (const width of range) {
 // console.log(`${__dirname}/urls.json`)
 // save json to a file to hand off to web devs
 try {
-  fs.writeFileSync(path.join(`${__dirname}/urls.json`), JSON.stringify(urls))
+  fs.writeFileSync(
+    path.join(`${__dirname}/urls.json`),
+    JSON.stringify(urls, null, 1)
+  )
 } catch (err) {
   console.error(err)
 }

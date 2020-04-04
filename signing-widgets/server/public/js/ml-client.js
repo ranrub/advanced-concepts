@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
       {
         insertHandler: function (data) {
           data.assets.forEach(asset => {
-            console.log('Inserted asset:', JSON.stringify(asset, null, 2))
+            console.log('Inserted asset:', JSON.stringify(asset, null, 1))
           })
         }
       },

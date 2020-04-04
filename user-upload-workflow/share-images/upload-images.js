@@ -12,7 +12,7 @@ const uploadImage = async filename => {
     await console.log(`uploaded: ${response.public_id}`)
     return response.public_id
   } catch (error) {
-    console.log('uploadImage error', JSON.stringify(error))
+    console.log('uploadImage error', JSON.stringify(error, null, 1))
     throw new Error(error)
   }
 }
