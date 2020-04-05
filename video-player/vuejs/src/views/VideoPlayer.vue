@@ -14,7 +14,7 @@ export default {
     /*global cloudinary - cloudinary JS SDK*/
     /*eslint no-undef: 'error'*/
     var cld = cloudinary.Cloudinary.new({
-      cloud_name: 'pictures77'
+      cloud_name: 'cloudinary-training'
     });
     // video play object
     const demoplayer = cld.videoPlayer('demo-player', {

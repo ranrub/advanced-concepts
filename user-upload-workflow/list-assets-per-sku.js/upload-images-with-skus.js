@@ -1,5 +1,6 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
+const open = require('open')
 
 // upload the same asset (same sku) with 2 views
 const data = {
@@ -17,7 +18,10 @@ for (const asset of data.assets) {
       unique_filename: false,
       tags: data.sku
     })
-    .then(uploadResult => console.log(uploadResult))
+    .then(uploadResult => {
+      console.log(uploadResult)
+      open(uploadResult.secure_url)
+    })
     .catch(error => console.error(error))
 }
 

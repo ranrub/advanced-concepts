@@ -50,4 +50,4 @@ for (const publicId of art) {
   mountArt(publicId)
 }
 
-// https://res.cloudinary.com/pictures77/image/upload/$w_300,$h_500,$depth_10,$wadp_$w_add_$depth,$hadp_$h_add_$depth/w_$w,h_$h,c_fill/w_$w,h_$h,c_fill,l_modern-art,o_60,bo_1px_solid_rgb:FFFFFF/w_$depth,h_$h,c_crop,g_east/a_hflip/e_distort:0:0:$depth:$depth:$depth:$hadp:0:$h/x_$depth_mul_-1,g_north_east,fl_layer_apply/w_$w,h_$h,c_fill,l_modern-art,o_60,bo_1px_solid_rgb:FFFFFF/w_$w,h_$depth,c_crop,g_south/a_vflip/e_distort:0:0:$w:0:$wadp:$depth:$depth:$depth/g_south,fl_layer_apply/f_auto,q_auto/modern-art.jpg
+// https://res.cloudinary.com/cloudinary-training/image/upload/$w_300,$h_500,$depth_10,$wadp_$w_add_$depth,$hadp_$h_add_$depth/w_$w,h_$h,c_fill/w_$w,h_$h,c_fill,l_modern-art,o_60,bo_1px_solid_rgb:FFFFFF/w_$depth,h_$h,c_crop,g_east/a_hflip/e_distort:0:0:$depth:$depth:$depth:$hadp:0:$h/x_$depth_mul_-1,g_north_east,fl_layer_apply/w_$w,h_$h,c_fill,l_modern-art,o_60,bo_1px_solid_rgb:FFFFFF/w_$w,h_$depth,c_crop,g_south/a_vflip/e_distort:0:0:$w:0:$wadp:$depth:$depth:$depth/g_south,fl_layer_apply/f_auto,q_auto/modern-art.jpg

@@ -30,6 +30,13 @@ cloudinary.uploader
     }
     // create an image tag using the rektags
     // step 3
-    console.log(cloudinary.image(uploadResult.public_id, { alt: alt }))
+    console.log(
+      'image tag:',
+      cloudinary.image(uploadResult.public_id, {
+        width: '400',
+        crop: 'scale',
+        alt: alt
+      })
+    )
   })
   .catch(error => console.error(error))

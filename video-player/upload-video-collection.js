@@ -16,7 +16,7 @@ async function uploadVideoFile (filename) {
         crop: 'fill',
         width: 300,
         gravity: 'auto',
-        aspect_ratio: '1:1',
+        aspect_ratio: '1:1'
       }
     })
     console.log('uploaded', result.public_id)

@@ -24,23 +24,23 @@ https://res.cloudinary.com/picturecloud7/image/upload/$horizontal_500,$vertical_
 
 #### Add a logo overlay and use (default) g_center (gravity center): step3.js
 provide a variable for the width of the logo  
-https://res.cloudinary.com/pictures77/image/upload/$vertical_500,$horizontal_500,$color_!ffffff!,$logow_200/c_fit,h_$vertical,w_$horizontal/e_replace_color:$color:30:111111/c_scale,g_center,l_logo-big,w_$logow/dpr_2.0,f_auto,q_auto/baseball-cap 
+https://res.cloudinary.com/cloudinary-training/image/upload/$vertical_500,$horizontal_500,$color_!ffffff!,$logow_200/c_fit,h_$vertical,w_$horizontal/e_replace_color:$color:30:111111/c_scale,g_center,l_logo-big,w_$logow/dpr_2.0,f_auto,q_auto/baseball-cap 
 
-![add over lay centered on image](https://res.cloudinary.com/pictures77/image/upload/$vertical_500,$horizontal_500,$color_!ffffff!,$logow_200/c_fit,h_$vertical,w_$horizontal/e_replace_color:$color:30:111111/c_scale,g_center,l_logo-big,w_$logow/dpr_2.0,f_auto,q_auto/baseball-cap)
+![add over lay centered on image](https://res.cloudinary.com/cloudinary-training/image/upload/$vertical_500,$horizontal_500,$color_!ffffff!,$logow_200/c_fit,h_$vertical,w_$horizontal/e_replace_color:$color:30:111111/c_scale,g_center,l_logo-big,w_$logow/dpr_2.0,f_auto,q_auto/baseball-cap)
 
 #### Refactor and Correct for angle of the hat: step4.js
 * drive all measurements off of width
 * use width dimension and logo width is 2/5 or .4 of width (logo has natural ar 1:1)
 * create correction factors for x,y placement based on gravity north and make them multiples of width
 
-https://res.cloudinary.com/pictures77/image/upload/$w_500,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffffff!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap
+https://res.cloudinary.com/cloudinary-training/image/upload/$w_500,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffffff!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap
 
-![refactor](https://res.cloudinary.com/pictures77/image/upload/$w_500,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffffff!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap)
+![refactor](https://res.cloudinary.com/cloudinary-training/image/upload/$w_500,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!ffffff!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap)
 
 #### Make hat color variable: step5.js
-https://res.cloudinary.com/pictures77/image/upload/$w_500,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!lightblue!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap 
+https://res.cloudinary.com/cloudinary-training/image/upload/$w_500,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!lightblue!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap 
 
-![variable hat color](https://res.cloudinary.com/pictures77/image/upload/$w_500,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!lightblue!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap)
+![variable hat color](https://res.cloudinary.com/cloudinary-training/image/upload/$w_500,$correctx_0.04,$correcty_0.1,$logoscalar_0.4,$color_!lightblue!/e_replace_color:$color:30:111111/c_scale,w_$w/c_fit,g_north,l_logo-big,w_$w_mul_$logoscalar,x_$w_mul_$correctx,y_$w_mul_0.1/dpr_2.0,f_auto,q_auto/baseball-cap)
 
 
 

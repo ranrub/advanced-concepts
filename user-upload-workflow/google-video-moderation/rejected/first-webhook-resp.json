@@ -15,8 +15,8 @@
   "type": "upload",
   "etag": "bf91c2c4e70585ca5b9e316768664b48",
   "placeholder": false,
-  "url": "http://res.cloudinary.com/pictures77/video/upload/v1584658428/hot-tub.mp4",
-  "secure_url": "https://res.cloudinary.com/pictures77/video/upload/v1584658428/hot-tub.mp4",
+  "url": "http://res.cloudinary.com/cloudinary-training/video/upload/v1584658428/hot-tub.mp4",
+  "secure_url": "https://res.cloudinary.com/cloudinary-training/video/upload/v1584658428/hot-tub.mp4",
   "access_mode": "public",
   "moderation": [
     {
