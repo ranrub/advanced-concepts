@@ -7,7 +7,9 @@ router.get('/', function (req, res, next) {
   const sig = signature.signupload()
   res.json({
     signature: sig.signature,
-    timestamp: sig.timestamp
+    timestamp: sig.timestamp,
+    cloudname: sig.cloudname,
+    apikey: sig.apikey
   })
 })
 module.exports = router

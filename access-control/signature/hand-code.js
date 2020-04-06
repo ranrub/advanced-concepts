@@ -34,5 +34,3 @@ const url = [
 ].join('/')
 console.log('hand code:', url)
 open(url)
-
-// https://res.cloudinary.com/picturecloud7/image/authenticated/s--Oe58XLUa--/c_mfit,f_auto,h_300,q_auto,w_300/dolphin

@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function (event) {
   // called after successfully retrieving upload signature
   var uploadFn = function (result, textStatus, xhr) {
     const options = {
-      cloudName: '<cloud_name>',
-      apiKey: '<api_key>',
+      cloudName: result.cloudname,
+      apiKey: result.apikey,
       uploadSignatureTimestamp: result.timestamp,
       uploadSignature: result.signature,
       cropping: true

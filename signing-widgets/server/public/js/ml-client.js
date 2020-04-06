@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
   // called after successfully retrieving upload signature
   var mlFn = function (result, textStatus, xhr) {
     const config = {
-      cloud_name: '<cloud_name>',
-      api_key: '<api_key>',
-      username: '<user name email>',
+      cloud_name: result.cloudname,
+      api_key: result.apikey,
+      username: result.username,
       timestamp: result.timestamp,
       signature: result.signature,
       button_class: 'ml-btn',
