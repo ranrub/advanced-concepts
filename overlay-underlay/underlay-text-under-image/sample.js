@@ -2,12 +2,6 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 const open = require('open')
 
-// base has a blue background
-// notice the underlay picks up the true color of the base background (coral red)
-// text underlay is blue with a yellow background - notice the effect of base background
-// we've added URL encoded characters for space %20
-// base image is 300 x 400
-// image rendered is 300 x 480  the -80 added 80 to the dimension of the overall image
 const url = cloudinary.url('shell', {
   transformation: [
     {
@@ -29,7 +23,8 @@ const url = cloudinary.url('shell', {
       color: 'blue',
       background: 'yellow',
       gravity: 'south',
-      width: 300
+      width: 300,
+      y: -50
     }
   ]
 })

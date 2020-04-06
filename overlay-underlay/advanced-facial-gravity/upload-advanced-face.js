@@ -8,7 +8,6 @@ cloudinary.uploader
     detection: 'adv_face'
   })
   .then(result => {
-    console.log(JSON.stringify(result.info.detection.adv_face))
+    console.log(JSON.stringify(result.info.detection.adv_face, null, 1))
   })
   .catch(error => console.error(error))
-
