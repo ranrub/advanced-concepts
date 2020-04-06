@@ -18,7 +18,7 @@ const addSeconds = seconds => {
 const enddate = addDays(7)
 const startdate = addSeconds(45)
 console.log('oneweekfromtoday', enddate)
-console.log('30 seconds from now', startdate)
+console.log('45 seconds from now', startdate)
 
 cloudinary.uploader
   .upload('./assets/images/koi.jpg', {

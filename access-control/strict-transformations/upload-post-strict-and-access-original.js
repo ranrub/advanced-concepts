@@ -32,13 +32,13 @@ cloudinary.uploader
     // no format - just public id
     url = cloudinary.url(`${uploadResult.public_id}`, {})
     console.log('cloudinary url:', url)
-    // 3. should not work 400
+    // 3. should not work 404
     open(url)
 
     // 4. transformation
     url = cloudinary.url(`${uploadResult.public_id}`, { angle: 0 })
     console.log('cloudinary url:', url)
-    // expect fail 'resource not found'
+    // expect fail 'resource not found' 404
     open(url)
   })
   .catch(error => console.error(error))
