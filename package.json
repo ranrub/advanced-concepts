@@ -18,7 +18,6 @@
   "homepage": "https://github.com/cloudinary-training/advanced-concepts#readme",
   "dependencies": {
     "acorn": ">=5.7.4",
-    "bopen": "^2.4.0",
     "cloudinary": "^1.21.0",
     "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
