@@ -1,14 +1,14 @@
 require('dotenv').config()
-var createError = require('http-errors')
-var express = require('express')
-var path = require('path')
+const createError = require('http-errors')
+const express = require('express')
+const path = require('path')
 
-var mlRouter = require('./routes/ml')
-var uploadRouter = require('./routes/upload')
-var signmedialibRouter = require('./routes/signml')
-var signuploadRouter = require('./routes/signupload')
+const mlRouter = require('./routes/ml')
+const uploadRouter = require('./routes/upload')
+const signmedialibRouter = require('./routes/signml')
+const signuploadRouter = require('./routes/signupload')
 
-var app = express()
+const app = express()
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'))
@@ -49,6 +49,6 @@ app.use(function (err, req, res, next) {
 })
 
 // module.exports = app
-var port = process.env.PORT || 3000
+const port = process.env.PORT || 3000
 
 app.listen(port, () => console.info(`Server is up on http://localhost:${port}`))
