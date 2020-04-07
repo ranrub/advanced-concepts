@@ -24,7 +24,7 @@ const uploadFn = function(result) {
     uploadSignature: result.signature,
     cropping: false
   }
-  var myWidget = window.cloudinary.createUploadWidget(
+  const myWidget = window.cloudinary.createUploadWidget(
     options,
     (error, result) => {
       console.log(error)
@@ -42,7 +42,7 @@ const uploadFn = function(result) {
   )
   document.getElementById('upload_widget').addEventListener(
     'click',
-    function() {
+    () => {
       myWidget.open()
     },
     false
