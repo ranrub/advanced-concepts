@@ -1,7 +1,7 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
-// create dash/vp9 (universal), hls/h265(apple), hls/h264 (chrome) custom profiles
+// create dash/vp9 (chrome), hls/h265(apple), hls/h264 (universal) custom profiles
 const upOptions = {
   resource_type: 'video',
   eager: [
