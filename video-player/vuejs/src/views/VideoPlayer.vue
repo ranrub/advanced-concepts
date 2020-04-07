@@ -13,7 +13,7 @@ export default {
     console.log('mounted');
     /*global cloudinary - cloudinary JS SDK*/
     /*eslint no-undef: 'error'*/
-    var cld = cloudinary.Cloudinary.new({
+    const cld = cloudinary.Cloudinary.new({
       cloud_name: 'cloudinary-training'
     });
     // video play object
