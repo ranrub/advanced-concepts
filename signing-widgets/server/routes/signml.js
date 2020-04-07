@@ -2,6 +2,10 @@ const express = require('express')
 const router = express.Router()
 const signature = require('../modules/signml')
 
+const cloudinary = require('cloudinary').v2
+const cloudName = cloudinary.config().cloud_name
+const apiKey = cloudinary.config().api_key
+const username = process.env.USER_NAME
 
 // using this API should require authentication
 router.get('/', function (req, res, next) {
@@ -9,9 +13,9 @@ router.get('/', function (req, res, next) {
   res.json({
     signature: sig.signature,
     timestamp: sig.timestamp,
-    cloudname: sig.cloudname,
-    apikey: sig.apikey,
-    username: sig.username
+    cloudname: cloudName,
+    apikey: apiKey,
+    username: username
   })
 })
 module.exports = router
