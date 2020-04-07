@@ -2,16 +2,20 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
 cloudinary.api
-  .list_streaming_profiles()
+  .transformations()
   .then(result => {
-    console.log(result)
-    for (const profile of result.data) {
+    // console.log(result)
+    for (const xform of result.transformations) {
       // delete transformation ending in /m4s
-      if (profile.name.substring(profile.name.length - 4) === '/m4s') {
-        console.log('destroy:', profile.name)
-        cloudinary.destroy(profile.name)
+      if (xform.name.substring(xform.name.length - 4) === '/m4s') {
+        console.log('destroy:', xform.name)
+        cloudinary.uploader
+          .destroy(xform.name)
+          .then(result => console.log(result))
+          .catch(error => console.log(error))
       } else {
-        console.log('keep:', profile.name)
+        console.log('keep')
+        // console.log('keep:', xform.name)
       }
     }
   })
