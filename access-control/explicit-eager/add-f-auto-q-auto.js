@@ -5,19 +5,23 @@ const cloudinary = require('cloudinary').v2
 // explicit method using eager parameter to create a transformation
 // creates a disabled 'Disallowed' transform
 // aleady uploaded assets require that public id and type be provided
-cloudinary.uploader.explicit('killer-whale',
-  {
+cloudinary.uploader
+  .explicit('shark', {
     type: 'upload',
-    eager: [{
-      fetch_format: 'webp',
-      transformation: [{
-        width: 300,
-        height: 300,
-        quality: 'auto',
-        crop: 'limit',
-        invalidate: true
-      }]
-    }]
+    aysnc: false,
+    eager: [
+      {
+        transformation: [
+          {
+            transformation:'auto-400-xform'
+          },
+          {
+            fetch_format: 'auto',
+            quality: 'auto'
+          }
+        ]
+      }
+    ]
   })
   .then(result => console.log('result', result))
   .catch(error => console.log('error', error))
