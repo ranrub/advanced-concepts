@@ -2,7 +2,7 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
 cloudinary.api
-  .transformations()
+  .transformations({ max_results: 500 })
   .then(result => {
     // console.log(result)
     for (const xform of result.transformations) {
