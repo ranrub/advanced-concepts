@@ -10,7 +10,7 @@ export default {
   name: 'VideoPlayer',
   // components: {},
   mounted: function() {
-    console.log('mounted');
+
     /*global cloudinary - cloudinary JS SDK*/
     /*eslint no-undef: 'error'*/
     const cld = cloudinary.Cloudinary.new({

@@ -6,34 +6,40 @@ block content
   h2 Welcome to #{title}
   p Timestamp: #{timestamp}
   p Signature: #{signature}
+  
   div
-  div#upload_widget_opener
+    button#upload_widget.cloudinary-button Upload files
+  div
+    img#uploaded
 
   script(type="text/javascript").
-    document.addEventListener(
-        "DOMContentLoaded",
-        e => {
-          $("#upload_widget_opener").cloudinary_upload_widget(
-            {
-              cloudName: "#{cloudname}",
-              apiKey: "#{apikey}",
-              cropping: false,
-              uploadSignature: "#{signature}",
-              uploadSignatureTimestamp: "#{timestamp}",
-              sources: [
-                    "local",
-                    "url",
-                    "camera"
-              ],
-            },
-            (error, result) => {
-              if (error){
-                console.log("error", error);
-              } else {
-                console.log(result);
-              }
-            }
-          );
+    document.addEventListener("DOMContentLoaded",e => {
+      const options = {
+        cloudName: "#{cloudname}",
+        apiKey: "#{apikey}",
+        uploadSignatureTimestamp: "#{timestamp}",
+        uploadSignature: "#{signature}",
+        cropping: false
+      };
+      const myWidget = window.cloudinary.createUploadWidget(
+      options,
+      (error, result) => {
+        console.log(error)
+        if (result) {
+          console.log(result.event)
+          if (result.event === 'success') {
+            console.log('Done! Here is the image info: ', JSON.stringify(result.info, null, 1)) 
+            document.querySelector('#uploaded').src = result.info.secure_url
+          }
         }
-      );
+      })
+      document.querySelector('#upload_widget').addEventListener('click',
+        function() {
+          myWidget.open()
+        },
+        false
+      )
+    })
+       
+    
     

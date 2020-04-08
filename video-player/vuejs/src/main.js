@@ -2,6 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
+import "../node_modules/cloudinary-video-player/dist/cld-video-player.min.css"
+import cloudinary from 'cloudinary-core';
+import "../node_modules/cloudinary-video-player/dist/cld-video-player.min.js";
+
 import Cloudinary from 'cloudinary-vue'
 Vue.use(
   Cloudinary, {

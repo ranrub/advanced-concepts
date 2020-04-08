@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     uploadSignatureTimestamp: data.timestamp,
     uploadSignature: data.signature,
     cropping: false
+
   };
 
   const processResults = (error, result) => {
