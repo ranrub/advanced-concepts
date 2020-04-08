@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
-  const response = await fetch('/api/signml');
-  const data = await response.json();
+  const response = await fetch('/api/signml')
+  const data = await response.json()
 
   const options = {
     cloud_name: data.cloudname,
@@ -14,7 +14,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   const insertHandler = data => {
-    data.assets.forEach(asset => console.log('Inserted asset:', JSON.stringify(asset, null, 1)));
+    data.assets.forEach(asset =>
+      console.log('Inserted asset:', JSON.stringify(asset, null, 1))
+    )
   }
-  const mlWidget = cloudinary.createMediaLibrary(options, insertHandler, '#ml-button')
-});
+  window.cloudinary.createMediaLibrary(
+    options,
+    insertHandler,
+    '#ml-button'
+  )
+})

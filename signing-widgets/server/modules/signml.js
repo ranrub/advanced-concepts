@@ -17,4 +17,4 @@ const signmedialib = () => {
 
 module.exports = {
   signmedialib
-};
+}

@@ -14,7 +14,7 @@ router.get('/', function (req, res, next) {
     timestamp: sig.timestamp,
     cloudname: cloudName,
     apikey: apiKey
-  });
-});
+  })
+})
 
-module.exports = router;
+module.exports = router

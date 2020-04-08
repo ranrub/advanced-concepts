@@ -14,9 +14,9 @@ const signupload = () => {
       .update(strtosign)
       .digest('hex')
   )
-  return { timestamp, signature };
-};
+  return { timestamp, signature }
+}
 
 module.exports = {
   signupload
-};
+}

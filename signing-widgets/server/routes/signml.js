@@ -16,6 +16,6 @@ router.get('/', function (req, res, next) {
     cloudname: cloudName,
     apikey: apiKey,
     username: username
-  });
-});
-module.exports = router;
+  })
+})
+module.exports = router
