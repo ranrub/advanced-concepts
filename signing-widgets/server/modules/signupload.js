@@ -5,7 +5,7 @@ const apiSecret = cloudinary.config().api_secret
 const crypto = require('crypto')
 const utf8 = require('utf8')
 
-exports.signupload = function() {
+const signupload = () => {
   const timestamp = new Date().getTime()
   const strtosign = `source=uw&timestamp=${timestamp}${apiSecret}`
   const signature = utf8.encode(
@@ -14,8 +14,9 @@ exports.signupload = function() {
       .update(strtosign)
       .digest('hex')
   )
-  return {
-    signature: signature,
-    timestamp: timestamp
-  }
-}
+  return { timestamp, signature };
+};
+
+module.exports = {
+  signupload
+};
