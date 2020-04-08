@@ -3,7 +3,7 @@ const cloudinary = require('cloudinary').v2
 const open = require('open')
 
 const url = cloudinary.url(
-  'https://cloudinary-training.github.io/advanced-concepts/assets/images/cc0.png',
+  'https://cdn.pixabay.com/photo/2020/03/06/13/43/mockingbird-4907104_1280.jpg',
   { type: 'fetch', sign_url: true }
 )
 console.log(url)
