@@ -1,7 +1,7 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
-// don't pay for rejected videos
+// clean up rejected videos
 cloudinary.api
   .resources_by_moderation('google_video_moderation', 'rejected', {
     resource_type: 'video'
