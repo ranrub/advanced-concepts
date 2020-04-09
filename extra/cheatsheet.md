@@ -139,52 +139,52 @@ Using Auto Quality and Auto Format
 
 | West   |      Center      |  East |
 |----------|:-------------:|------:|
-| ![north west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_west%20,co_black,g_north_west,b_red/1px.png)|  ![north](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north%20,co_black,g_north,b_red/1px.png) | ![north east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_east%20,co_black,g_north_east,b_red/1px.png) |
-| ![west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,b_red/1px.png)|    ![center](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red/1px.png)   |   ![east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,b_red/1px.png) |
-| ![south west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,b_red/1px.png)| ![south](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,b_red/1px.png) |  ![south east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,b_red/1px.png) |
+| ![north west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_west%20,co_black,g_north_west,b_red/1px)|  ![north](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north%20,co_black,g_north,b_red/1px) | ![north east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_east%20,co_black,g_north_east,b_red/1px) |
+| ![west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,b_red/1px)|    ![center](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red/1px)   |   ![east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,b_red/1px) |
+| ![south west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,b_red/1px)| ![south](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,b_red/1px) |  ![south east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,b_red/1px) |
 
 **CENTER**
-https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20CENTER%20,co_black,g_center,b_red/1px.png
+https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20CENTER%20,co_black,g_center,b_red/1px
 
 **N**
-https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20N%20,co_black,g_north,b_red/1px.png
+https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20N%20,co_black,g_north,b_red/1px
 
 **NE**
-https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20NE%20,co_black,g_north_east,b_red/1px.png
+https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20NE%20,co_black,g_north_east,b_red/1px
 
 **E**
-https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20E%20,co_black,g_east,b_red/1px.png
+https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20E%20,co_black,g_east,b_red/1px
 
 **SE**
-https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20SE%20,co_black,g_south_east,b_red/1px.png
+https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20SE%20,co_black,g_south_east,b_red/1px
 
 **S**
-https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20S%20,co_black,g_south,b_red/1px.png
+https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20S%20,co_black,g_south,b_red/1px
 
 **SW**
-https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20SW%20,co_black,g_south_west,b_red/1px.png
+https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20SW%20,co_black,g_south_west,b_red/1px
 
 **W**
-https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20W%20,co_black,g_west,b_red/1px.png
+https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20W%20,co_black,g_west,b_red/1px
 
 **NW**
-https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20NW%20,co_black,g_north_west,b_red/1px.png
+https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20NW%20,co_black,g_north_west,b_red/1px
 
 ### Direction offset x 10, y 10
 
 |    |            |   |
 |----------|:-------------:|------:|
-| ![north west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_west%20,co_black,g_north_west,x_10,y_10,b_red/1px.png)|  ![north](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north%20,co_black,g_north,x_10,y_10,b_red/1px.png) | ![north east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_east%20,co_black,g_north_east,x_10,y_10,b_red/1px.png) |
-| ![west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,x_10,y_10,b_red/1px.png)|    ![center](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red,x_10,y_10/1px.png)   |   ![east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,x_10,y_10,b_red/1px.png) |
-| ![south west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,x_10,y_10,b_red/1px.png)| ![south](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,x_10,y_10,b_red/1px.png) |  ![south east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,x_10,y_10,b_red/1px.png) |
+| ![north west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_west%20,co_black,g_north_west,x_10,y_10,b_red/1px)|  ![north](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north%20,co_black,g_north,x_10,y_10,b_red/1px) | ![north east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_east%20,co_black,g_north_east,x_10,y_10,b_red/1px) |
+| ![west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,x_10,y_10,b_red/1px)|    ![center](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red,x_10,y_10/1px)   |   ![east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,x_10,y_10,b_red/1px) |
+| ![south west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,x_10,y_10,b_red/1px)| ![south](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,x_10,y_10,b_red/1px) |  ![south east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,x_10,y_10,b_red/1px) |
 
 ### Direction offset x -10, y -10
 
 |    |            |   |
 |----------|:-------------:|------:|
-| ![north west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_west%20,co_black,g_north_west,x_-10,y_-10,b_red/1px.png)|  ![north](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north%20,co_black,g_north,x_-10,y_-10,b_red/1px.png) | ![north east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_east%20,co_black,g_north_east,x_-10,y_-10,b_red/1px.png) |
-| ![west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,x_-10,y_-10,b_red/1px.png)|    ![center](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red,x_-10,y_-10/1px.png)   |   ![east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,x_-10,y_-10,b_red/1px.png) |
-| ![south west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,x_-10,y_-10,b_red/1px.png)| ![south](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,x_-10,y_-10,b_red/1px.png) |  ![south east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,x_-10,y_-10,b_red/1px.png) |
+| ![north west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_west%20,co_black,g_north_west,x_-10,y_-10,b_red/1px)|  ![north](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north%20,co_black,g_north,x_-10,y_-10,b_red/1px) | ![north east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_north_east%20,co_black,g_north_east,x_-10,y_-10,b_red/1px) |
+| ![west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_west%20,co_black,g_west,x_-10,y_-10,b_red/1px)|    ![center](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_center%20,co_black,g_center,b_red,x_-10,y_-10/1px)   |   ![east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_east%20,co_black,g_east,x_-10,y_-10,b_red/1px) |
+| ![south west](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_west%20,co_black,g_south_west,x_-10,y_-10,b_red/1px)| ![south](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20south%20,co_black,g_south,x_-10,y_-10,b_red/1px) |  ![south east](https://res.cloudinary.com/cloudinary-training/image/upload/c_scale,f_auto,h_150,q_auto,w_150/l_text:Times_20:%20g_south_east%20,co_black,g_south_east,x_-10,y_-10,b_red/1px) |
 
 
 
