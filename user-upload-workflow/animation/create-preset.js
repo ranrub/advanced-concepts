@@ -7,13 +7,17 @@ cloudinary.api
     use_filename: true,
     unique_filename: false,
     unsigned: false,
-    transformation: {
-      width: 400,
-      height: 400,
-      gravity: 'auto',
-      crop: 'fill_pad',
-      quality: 'auto'
-    },
+    transformation: [
+      {
+        width: 400,
+        height: 300,
+        crop: 'fit'
+      },
+      {
+        fetched_format: 'auto',
+        quality: 'auto'
+      }
+    ],
     tags: 'sea-life',
     allowed_formats: 'jpg'
   })
