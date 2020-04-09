@@ -9,6 +9,7 @@ cloudinary.uploader
     public_id: 'elephants',
     access_control: [{ access_type: 'token' }],
     moderation: 'google_video_moderation:possible',
+    transformation: [{ duration: 5 }],
     notification_url:
       'https://webhook.site/17a3d46c-5d18-46b0-ab6c-94b12d7f645c'
   })
@@ -17,4 +18,3 @@ cloudinary.uploader
     console.log(result.moderation.repsonse)
   })
   .catch(error => console.log(error))
-
