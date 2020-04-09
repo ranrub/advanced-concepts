@@ -6,6 +6,9 @@
 </template>
 
 <script>
+import cloudinary from 'cloudinary-core';
+import "../../node_modules/cloudinary-video-player/dist/cld-video-player.min.js";
+
 export default {
   name: 'VideoPlayer',
   // components: {},
