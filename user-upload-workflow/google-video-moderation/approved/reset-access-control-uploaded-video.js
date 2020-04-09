@@ -1,17 +1,14 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
-
 // upload token access and moderation
 // check to see that video is available before moderation and it is restricted
 // get a list of approved and remove token and look at video without version 
-
-// don't pay for rejected videos
 cloudinary.api
   .resources_by_moderation('google_video_moderation', 'approved', {
     resource_type: 'video'
   })
   .then(result => {
-    // delete anything that's rejected
+    // remove tokens from approved videos
     for (const video of result.resources) {
       cloudinary.api
         .update(video.public_id, {
@@ -31,7 +28,6 @@ cloudinary.api
         })
         .catch(error => console.error(error))
     }
-
     console.log(result)
   })
   .catch(error => {
