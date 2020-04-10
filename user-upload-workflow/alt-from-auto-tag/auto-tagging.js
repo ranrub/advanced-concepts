@@ -24,7 +24,7 @@ cloudinary.uploader
           context: `alt=${alt}`
         })
         .then(result => {
-          console.log(result)
+          console.log(JSON.stringify(result, null, 1))
         })
         .catch(error => console.error(error))
     }
