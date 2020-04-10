@@ -1,7 +1,6 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 const open = require('open')
-
 const url = cloudinary.url('shell', {
   transformation: [
     {
@@ -11,7 +10,7 @@ const url = cloudinary.url('shell', {
       background: 'rgb:ff2222'
     },
     {
-      overlay: {
+      underlay: {
         font_family: 'Roboto',
         font_size: 50,
         font_weight: 'bold',
@@ -23,11 +22,9 @@ const url = cloudinary.url('shell', {
       color: 'blue',
       background: 'yellow',
       gravity: 'south',
-      width: 300,
-      y: -50
+      width: 300
     }
   ]
 })
-
 console.log(url)
 open(url)
