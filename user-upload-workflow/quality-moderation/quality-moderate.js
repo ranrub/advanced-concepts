@@ -6,10 +6,15 @@ cloudinary.uploader
     type: 'private',
     public_id: 'image-from-tv-1',
     quality_analysis: true,
-    moderation: 'manual',
     invalidate: true
   })
   .then(uploadResult => {
     console.log(uploadResult)
+    if (uploadResult.quality_analysis.focus < 0.7) {
+      cloudinary.uploader.explicit(uploadResult.public_id, {
+        type: 'upload',
+        moderation: 'manual'
+      })
+    }
   })
   .catch(error => console.error(error))
