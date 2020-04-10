@@ -75,12 +75,10 @@ const assets = [
   { public_id: 'sample', resource_type: 'image' },
   { public_id: 'shark', resource_type: 'image' },
   { public_id: 'shell', resource_type: 'image' },
-  { public_id: 'ski-lodge', resource_type: 'image' },
   { public_id: 'snowboard', resource_type: 'image' },
   { public_id: 'special-fish', resource_type: 'image' },
   { public_id: 'strawberry', resource_type: 'image' },
   { public_id: 'tiger-lilly', resource_type: 'image' },
-  { public_id: 'transparent-gray-1px', resource_type: 'image' },
   { public_id: 'yellow-shoes', resource_type: 'image' }
 ]
 
