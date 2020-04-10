@@ -22,7 +22,8 @@ const url = cloudinary.url('shell', {
       color: 'blue',
       background: 'yellow',
       gravity: 'south',
-      width: 300
+      width: 300,
+      y: -50
     }
   ]
 })

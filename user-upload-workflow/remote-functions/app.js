@@ -79,8 +79,8 @@ app.get('/', function(req, res) {
 })
 
 // memory
-var storage = multer.memoryStorage()
-var upload = multer({ storage: storage })
+const storage = multer.memoryStorage()
+const upload = multer({ storage: storage })
 
 app.post('/api/file', upload.fields([{ name: 'file' }]), function(req, res) {
   return transform(req.files.file[0])
