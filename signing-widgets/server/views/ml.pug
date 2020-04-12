@@ -9,8 +9,8 @@ block content
   button#ml-button
 
   script(type="text/javascript").
-
-    this.mlWidget = cloudinary.createMediaLibrary({
+    document.addEventListener("DOMContentLoaded",e => {
+      const options = {
       cloud_name: "#{cloudname}",
       api_key: "#{apikey}",
       username: "#{username}",
@@ -19,13 +19,16 @@ block content
       button_class: "ml-btn",
       button_caption: "Open Media Library",
       insert_transformation: true
-      }, 
-      {
-          insertHandler: function (data) {
-          data.assets.forEach(asset => {
-            console.log("Inserted asset:", JSON.stringify(asset, null, 1));
-          });
-        }
-      },
-      "#ml-button"
-      );
+      }
+
+      const insertHandler = data => {
+        data.assets.forEach(asset =>
+          console.log('Inserted asset:', JSON.stringify(asset, null, 1))
+        )
+      }
+      window.cloudinary.createMediaLibrary(
+        options,
+        insertHandler,
+        '#ml-button'
+      )
+    })

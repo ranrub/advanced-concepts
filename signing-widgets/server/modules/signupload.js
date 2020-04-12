@@ -3,7 +3,7 @@ const cloudinary = require('cloudinary').v2
 const apiSecret = cloudinary.config().api_secret
 
 const crypto = require('crypto')
-const utf8 = require('utf8')
+const utf8 = require('utf8') // sha1 requires
 
 const signupload = () => {
   const timestamp = new Date().getTime()
