@@ -35,12 +35,6 @@
   document.addEventListener("DOMContentLoaded", function () {
     const source1 = {
       publicId: 'downhill',
-      transformation: {
-        crop: "fill",
-        width: 300,
-        gravity: "auto",
-        aspect_ratio: "1:1"
-      },
       info: {
         title: 'Downhill',
         subtitle: 'Downhill skiing',
@@ -49,12 +43,6 @@
     };
     const source2 = {
       publicId: 'ski-lift',
-      transformation: {
-        crop: "fill",
-        width: 300,
-        gravity: "auto",
-        aspect_ratio: "1:1"
-      },
       info: {
         title: 'Ski Lift',
         subtitle: 'top of the lift',
@@ -63,12 +51,6 @@
     };
     const source3 = {
       publicId: 'hike-up',
-      transformation: {
-        crop: "fill",
-        width: 300,
-        gravity: "auto",
-        aspect_ratio: "1:1"
-      },
       info: {
         title: 'Hike up',
         subtitle: 'To ski down',
@@ -77,12 +59,6 @@
     };
     const source4 = {
       publicId: 'snowboarding',
-      transformation: {
-        crop: "fill",
-        width: 300,
-        gravity: "auto",
-        aspect_ratio: "1:1"
-      },
       info: {
         title: 'Snowboarding',
         subtitle: 'Tricks',
@@ -100,9 +76,16 @@
 
     // Initialize player
     const player = cld.videoPlayer('example-player', {
+      transformation: {
+        crop: "fill",
+        width: 300,
+        gravity: "auto",
+        aspect_ratio: "1:1"
+      },
       autoShowRecommendations: true,
       showLogo: true,
-      logoImageUrl: "https://res.cloudinary.com/demo/image/upload/sample",
+      logoOnclickUrl:'https://studio.cloudinary.com/',
+      logoImageUrl: 'https://res.cloudinary.com/cloudinary-training/image/upload/logo-big.png',
       colors: { "base": "blue", "accent": "red", "text": "lightgreen" }
     });
 
