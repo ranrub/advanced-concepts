@@ -4,7 +4,7 @@ const cloudinary = require('cloudinary').v2
 // using add on Google AI Video Moderation
 // Google cloud video intelligence
 cloudinary.uploader
-  .upload('https://res.cloudinary.com/demo/video/upload/elephants.mp4', {
+  .upload('https://res.cloudinary.com/cloudinary-training/video/upload/elephants.mp4', {
     resource_type: 'video',
     public_id: 'elephants',
     access_control: [{ access_type: 'token' }],

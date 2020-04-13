@@ -2,7 +2,7 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 // use upload API to upload an authenticated asset
 cloudinary.uploader
-  .upload('https://res.cloudinary.com/demo/video/upload/elephants.mp4', {
+  .upload('https://res.cloudinary.com/cloudinary-training/video/upload/elephants.mp4', {
     folder: 'moderated',
     use_filename: true,
     unique_filename: false,
@@ -10,7 +10,7 @@ cloudinary.uploader
     type: 'authenticated',
     moderation: 'google_video_moderation:possible',
     notification_url:
-      'https://webhook.site/e2702062-2f32-435d-b997-c245d783ed1b',
+      'https://webhook.site/17a3d46c-5d18-46b0-ab6c-94b12d7f645c',
     invalidate: true
   })
   .then(uploadResult => {
