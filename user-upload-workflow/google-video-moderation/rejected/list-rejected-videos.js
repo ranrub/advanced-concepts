@@ -7,7 +7,7 @@ cloudinary.api
     resource_type: 'video'
   })
   .then(result => {
-    console.log(result)
+    console.log(JSON.stringify(result, null, 1))
   })
   .catch(error => {
     console.log(error)
