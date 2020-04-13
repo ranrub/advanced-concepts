@@ -14,6 +14,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 })
 
 // upload
+const uploadOptions = {
+  cloudName: cloudName,
+  uploadPreset: uploadPreset
+}
+
 const processResults = (error, result) => {
   if (!error && result && result.event === 'success') {
     console.log(result)
@@ -21,13 +26,11 @@ const processResults = (error, result) => {
     document.querySelector('#uploaded').src = result.info.secure_url
   }
 }
-const mlOptions = {
-  cloudName: cloudName,
-  uploadPreset: uploadPreset
-}
+
+
 const renderUploadWidget = () => {
   const myWidget = window.cloudinary.createUploadWidget(
-    mlOptions,
+    uploadOptions,
     processResults
   )
   document
@@ -36,21 +39,24 @@ const renderUploadWidget = () => {
 }
 
 // media library
-const insertHandler = data => {
-  data.assets.forEach(asset =>
-    console.log('Inserted asset:', JSON.stringify(asset, null, 1))
-  )
-}
-const uploadOptions = {
+
+const mlOptions = {
   cloud_name: cloudName,
   api_key: apiKey,
   username: userEmail,
   button_class: 'myBtn',
   button_caption: 'Select Image or Video'
 }
+
+const insertHandler = data => {
+  data.assets.forEach(asset =>
+    console.log('Inserted asset:', JSON.stringify(asset, null, 1))
+  )
+}
+
 const renderMediaLibrary = () => {
   window.cloudinary.createMediaLibrary(
-    uploadOptions,
+    mlOptions,
     insertHandler,
     document.querySelector('#ml-button')
   )
